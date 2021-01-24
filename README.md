@@ -25,7 +25,10 @@
 
 ## Table of contents
 
-- [Installation Guide](#installation)
+- [Installation Guide](#installation-guide)
+- [Contributing](#contributing)
+- [License](#license)
+- [About the Author](#about-the-author)
 
 ## Installation Guide
 
