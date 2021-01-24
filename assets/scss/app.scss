@@ -1,0 +1,23 @@
+/*
+* Mazer Nuxt, Nuxt Version of Mazer
+* 
+* File: app.scss
+*
+*/
+
+/**
+
+====== TABLE OF CONTENTS =======
+1. Bootstrap & Variables Inside
+2. Pages
+    2.0 Layout
+
+*/
+
+// 1. Bootstrap
+@import "./variables";
+
+// 2. Pages
+// 2.0 Layout
+@import "./layouts/main.scss";
+@import "./utilities"
