@@ -17,7 +17,10 @@
                         {{ item.name }}
                     </li>
                     <li class="sidebar-item" :class="{ 'active' : isActive(item.url), 'has-sub' : isHasSub(item) }" v-else :key="item">
-                        <nuxt-link class="sidebar-link" :to="item.url"><i :class="`bi bi-${item.icon}`"></i>{{ item.name }}</nuxt-link>
+                        <nuxt-link class="sidebar-link" :to="item.url">
+                            <i :class="`bi bi-${item.icon}`"></i>
+                            <span>{{ item.name }}</span>
+                        </nuxt-link>
                         <template v-if="item.hasOwnProperty('submenu')">
                             <ul :class="`submenu active`" v-if="item.submenu.length > 0">
                                 <template v-for="sub in item.submenu">
@@ -45,12 +48,14 @@ export default {
             return false;
         },
         isHasSub(item){
-            return true;
+            return item.hasOwnProperty("submenu");
         }
     }
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+[class^="bi-"]::before, [class*=" bi-"]::before {
+    vertical-align: text-top;
+}
 </style>

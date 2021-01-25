@@ -20,8 +20,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    "~/assets/scss/app.scss",
     "~/assets/scss/bootstrap.scss",
+    "~/assets/scss/app.scss",
     "~/assets/scss/icons.scss"
   ],
 
