@@ -48,7 +48,13 @@ export default {
             return false;
         },
         isHasSub(item){
-            return item.hasOwnProperty("submenu");
+            if(item.hasOwnProperty("submenu")){
+                if(item.submenu.length > 0){
+                    return true;
+                }
+            }
+
+            return false;
         }
     }
 }
