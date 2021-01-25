@@ -9,12 +9,19 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "apexcharts": "^3.23.1",
     "bootstrap": "^5.0.0-beta1",
+    "bootstrap-icons": "^1.3.0",
     "core-js": "^3.8.2",
-    "nuxt": "^2.14.12"
+    "feather-icons": "^4.28.0",
+    "nuxt": "^2.14.12",
+    "vue-apexcharts": "^1.6.0"
   },
   "devDependencies": {
+    "@nuxtjs/google-fonts": "^1.2.0",
+    "@nuxtjs/style-resources": "^1.0.0",
     "node-sass": "^5.0.0",
+    "nuxt-purgecss": "^1.0.0",
     "sass-loader": "^10.1.1"
   }
 }
