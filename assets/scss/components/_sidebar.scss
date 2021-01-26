@@ -78,6 +78,10 @@
             margin-top: .5rem;
             position: relative;
             &.has-sub {
+                &:hover {
+                    cursor: pointer;
+                }
+
                 .sidebar-link:after {
                     content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9" style="fill:none;stroke:gray;stroke-width:1"></polyline></svg>');
                     position: absolute;
@@ -105,6 +109,13 @@
             }
         }
         .submenu {
+            .submenu-item {
+                &.active > a {
+                    color: #435ebe;
+                    font-weight: 700;
+                }
+            }
+
             list-style: none;
             display: none;
             // max-height: 0;
@@ -114,7 +125,7 @@
                 max-height: 999px;
                 display: block;
             }
-            li {
+            .submenu-item {
                 a {
                     padding: .7rem 2rem;
                     display: block;
