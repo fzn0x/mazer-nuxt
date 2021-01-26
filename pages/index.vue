@@ -83,11 +83,13 @@
                                 <h4>Profile Visit</h4>
                             </div>
                             <div class="card-body">
-                              <VueApexCharts
-                                height="300"
-                                :options="optionsProfileVisit"
-                                :series="optionsProfileVisit.series"
-                              ></VueApexCharts>
+                              <client-only>
+                                <VueApexCharts
+                                  height="300"
+                                  :options="optionsProfileVisit"
+                                  :series="optionsProfileVisit.series"
+                                ></VueApexCharts>
+                              </client-only>
                             </div>
                         </div>
                     </div>
@@ -114,11 +116,13 @@
                                         <h5 class="mb-0">862</h5>
                                     </div>
                                     <div class="col-12">
-                                      <VueApexCharts
-                                        height="80"
-                                        :options="optionsEurope"
-                                        :series="optionsEurope.series"
-                                      ></VueApexCharts>
+                                      <client-only>
+                                        <VueApexCharts
+                                          height="80"
+                                          :options="optionsEurope"
+                                          :series="optionsEurope.series"
+                                        ></VueApexCharts>
+                                      </client-only>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -136,11 +140,13 @@
                                         <h5 class="mb-0">375</h5>
                                     </div>
                                     <div class="col-12">
-                                      <VueApexCharts
-                                        height="80"
-                                        :options="optionsAmerica"
-                                        :series="optionsAmerica.series"
-                                      ></VueApexCharts>
+                                      <client-only>
+                                        <VueApexCharts
+                                          height="80"
+                                          :options="optionsAmerica"
+                                          :series="optionsAmerica.series"
+                                        ></VueApexCharts>
+                                      </client-only>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -158,11 +164,13 @@
                                         <h5 class="mb-0">1025</h5>
                                     </div>
                                     <div class="col-12">
-                                      <VueApexCharts
-                                        height="80"
-                                        :options="optionsIndonesia"
-                                        :series="optionsIndonesia.series"
-                                      ></VueApexCharts>
+                                      <client-only>
+                                        <VueApexCharts
+                                          height="80"
+                                          :options="optionsIndonesia"
+                                          :series="optionsIndonesia.series"
+                                        ></VueApexCharts>
+                                      </client-only>
                                     </div>
                                 </div>
                             </div>
@@ -275,11 +283,13 @@
                         <h4>Visitors Profile</h4>
                     </div>
                     <div class="card-body">
+                      <client-only>
                         <VueApexCharts
                           height="350"
                           :options="optionsVisitorsProfile"
                           :series="optionsVisitorsProfile.series"
                         ></VueApexCharts>
+                      </client-only>
                     </div>
                 </div>
             </div>
