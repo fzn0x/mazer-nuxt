@@ -36,6 +36,14 @@ export default [
         {
           "name": "Carousel",
           "url": "/components/carousel"
+        },
+        {
+          "name": "Dropdown",
+          "url": "/components/dropdown"
+        },
+        {
+          "name": "List Group",
+          "url": "/components/list-group"
         }
       ]
     }  
