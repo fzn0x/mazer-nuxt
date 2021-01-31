@@ -44,6 +44,14 @@ export default [
         {
           "name": "List Group",
           "url": "/components/list-group"
+        },
+        {
+          "name": "Modal",
+          "url": "/components/modal"
+        },
+        {
+          "name": "Navs",
+          "url": "/components/navs"
         }
       ]
     }  
