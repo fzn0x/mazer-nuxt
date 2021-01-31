@@ -52,6 +52,14 @@ export default [
         {
           "name": "Navs",
           "url": "/components/navs"
+        },
+        {
+          "name": "Pagination",
+          "url": "/components/pagination"
+        },
+        {
+          "name": "Progress",
+          "url": "/components/progress"
         }
       ]
     }  
