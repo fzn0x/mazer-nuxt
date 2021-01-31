@@ -60,6 +60,14 @@ export default [
         {
           "name": "Progress",
           "url": "/components/progress"
+        },
+        {
+          "name": "Spinner",
+          "url": "/components/spinner"
+        },
+        {
+          "name": "Tooltip",
+          "url": "/components/tooltip"
         }
       ]
     }  
