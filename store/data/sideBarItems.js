@@ -28,6 +28,14 @@ export default [
         {
           "name": "Button",
           "url": "/components/button"
+        },
+        {
+          "name": "Card",
+          "url": "/components/card"
+        },
+        {
+          "name": "Carousel",
+          "url": "/components/carousel"
         }
       ]
     }  
