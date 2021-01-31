@@ -22,7 +22,7 @@
                                 <i :class="`bi bi-${item.icon}`"></i>
                                 <span>{{ item.name }}</span>
                             </a>
-                            <ul class="submenu active">
+                            <ul class="submenu">
                                 <template v-for="sub in item.submenu">
                                     <li class="submenu-item" :class="{ 'active' : isActive(sub.url) } " :key="sub.key">
                                         <nuxt-link :to="sub.url">{{ sub.name }}</nuxt-link>
