@@ -20,6 +20,14 @@ export default [
         {
           "name": "Badge",
           "url": "/components/badge"
+        },
+        {
+          "name": "Breadcrumb",
+          "url": "/components/breadcrumb"
+        },
+        {
+          "name": "Button",
+          "url": "/components/button"
         }
       ]
     }  
