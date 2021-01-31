@@ -15,8 +15,12 @@ export default [
       "submenu": [
         {
           "name": "Alert",
-          "url": "/alert"
+          "url": "/components/alert"
+        },
+        {
+          "name": "Badge",
+          "url": "/components/badge"
         }
       ]
-    },   
+    }  
 ];
