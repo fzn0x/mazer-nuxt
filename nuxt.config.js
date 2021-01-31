@@ -2,6 +2,11 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  loading: {
+    color: 'blue',
+    height: '5px'
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'mazer-nuxt',
@@ -47,13 +52,14 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/style-resources',
-    'nuxt-lazy-load'
+    'nuxt-lazy-load',
+    '@nuxtjs/component-cache'
   ],
 
   styleResources: {
     scss: [
       './assets/scss/_variables.scss',
-      ]
+    ]
   },
 
   googleFonts: {

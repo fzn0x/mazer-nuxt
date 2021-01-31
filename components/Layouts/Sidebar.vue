@@ -22,7 +22,7 @@
                                 <i :class="`bi bi-${item.icon}`"></i>
                                 <span>{{ item.name }}</span>
                             </a>
-                            <ul class="submenu">
+                            <ul class="submenu" :class="{ 'active' : subIsActive(item) } ">
                                 <template v-for="sub in item.submenu">
                                     <li class="submenu-item" :class="{ 'active' : isActive(sub.url) } " :key="sub.key">
                                         <nuxt-link :to="sub.url">{{ sub.name }}</nuxt-link>
@@ -58,7 +58,9 @@ export default {
                 e.preventDefault();
                 
                 let submenu = sidebarItem.querySelector('.submenu');
-                if(submenu.style.display == 'none') submenu.classList.add('active')
+                if( submenu.classList.contains('active') ) submenu.style.display = "block"
+
+                if( submenu.style.display == "none" ) submenu.classList.add('active')
                 else submenu.classList.remove('active')
                 slideToggle(submenu, 300)
             })
