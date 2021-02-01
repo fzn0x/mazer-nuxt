@@ -56,7 +56,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     'nuxt-lazy-load',
-    // '@nuxtjs/axios',
+    '@nuxtjs/axios',
     '@nuxtjs/component-cache'
   ],
 
