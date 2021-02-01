@@ -1193,6 +1193,13 @@
     webpack-node-externals "^2.5.2"
     webpackbar "^4.0.0"
 
+"@nuxtjs/component-cache@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/component-cache/-/component-cache-1.1.6.tgz#4a6a7b4b769631e9804774077365e44bc4537757"
+  integrity sha512-CqecqRcgw6uV1hxv3TuhA/muo173Q5zDpaOyUg0hlYNRfNGueEdE7ZiO9nwAHEirRk3qHpmvMmh7Bg8+Wlj+Sg==
+  dependencies:
+    lru-cache "^6.0.0"
+
 "@nuxtjs/google-fonts@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/google-fonts/-/google-fonts-1.2.0.tgz#b226683f2ccfdb1caab02729ff1c513062b9e868"
@@ -1719,10 +1726,10 @@ anymatch@~3.1.1:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-apexcharts@^3.23.1:
-  version "3.23.1"
-  resolved "https://registry.yarnpkg.com/apexcharts/-/apexcharts-3.23.1.tgz#6d63ae2a0b5cbb54644fc0147a228ece57afa8dc"
-  integrity sha512-7fRpquXp725BUew5OO1mJWk16/IJPCUl0l8SjhISnAhAtbTaM9PnXPSmN2BvKO4RcT457CzMM7MCG5UokiTwcA==
+apexcharts@^3.24.0:
+  version "3.24.0"
+  resolved "https://registry.yarnpkg.com/apexcharts/-/apexcharts-3.24.0.tgz#0fc513e940448524ae9702d39ec287567522d1eb"
+  integrity sha512-iT6czJCIVrmAtrcO90MZTQCvC+xi6R6Acf0jNH/d40FVTtCfcqECuKIh5iAMyOTtgUb7+fQ8rbadH2bm1kbL9Q==
   dependencies:
     svg.draggable.js "^2.2.2"
     svg.easing.js "^2.0.0"
@@ -4537,6 +4544,11 @@ inquirer@^7.3.3:
     strip-ansi "^6.0.0"
     through "^2.3.6"
 
+intersection-observer@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/intersection-observer/-/intersection-observer-0.7.0.tgz#ee16bee978db53516ead2f0a8154b09b400bbdc9"
+  integrity sha512-Id0Fij0HsB/vKWGeBe9PxeY45ttRiBmhFyyt/geBdDHBYNctMRTE3dC1U3ujzz3lap+hVXlEcVaB56kZP/eEUg==
+
 ip@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/ip/-/ip-1.1.5.tgz#bdded70114290828c0a039e72ef25f5aaec4354a"
@@ -5721,6 +5733,14 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
+nuxt-lazy-load@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/nuxt-lazy-load/-/nuxt-lazy-load-1.2.4.tgz#11ff7bc8fc61c812d4d15c8120477d9b05fa8a31"
+  integrity sha512-b+d7zwOmikv2jqPGO0LNr3RKu8RcuJ3amGhHiiWtgseOLh8NKMl9xgSqprYBhGOD8mSOk5euurteVZWVjR7bYQ==
+  dependencies:
+    intersection-observer "^0.7.0"
+    string-replace-loader "^2.1.1"
+
 nuxt-purgecss@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/nuxt-purgecss/-/nuxt-purgecss-1.0.0.tgz#7c275205f0b727a5822781908d684f2e094ff5e7"
@@ -6083,6 +6103,11 @@ pbkdf2@^3.0.3:
     ripemd160 "^2.0.1"
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
+
+perfect-scrollbar@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/perfect-scrollbar/-/perfect-scrollbar-1.5.0.tgz#821d224ed8ff61990c23f26db63048cdc75b6b83"
+  integrity sha512-NrNHJn5mUGupSiheBTy6x+6SXCFbLlm8fVZh9moIzw/LgqElN5q4ncR4pbCBCYuCJ8Kcl9mYM0NgDxvW+b4LxA==
 
 performance-now@^2.1.0:
   version "2.1.0"
@@ -7856,6 +7881,14 @@ strict-uri-encode@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/strict-uri-encode/-/strict-uri-encode-2.0.0.tgz#b9c7330c7042862f6b142dc274bbcc5866ce3546"
   integrity sha1-ucczDHBChi9rFC3CdLvMWGbONUY=
+
+string-replace-loader@^2.1.1:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/string-replace-loader/-/string-replace-loader-2.3.0.tgz#7f29be7d73c94dd92eccd5c5a15651181d7ecd3d"
+  integrity sha512-HYBIHStViMKLZC/Lehxy42OuwsBaPzX/LjcF5mkJlE2SnHXmW6SW6eiHABTXnY8ZCm/REbdJ8qnA0ptmIzN0Ng==
+  dependencies:
+    loader-utils "^1.2.3"
+    schema-utils "^2.6.5"
 
 string-width@^1.0.1:
   version "1.0.2"
