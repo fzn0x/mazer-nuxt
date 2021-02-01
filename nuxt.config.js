@@ -1,10 +1,13 @@
+import shrinkRay from 'shrink-ray-current'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  
   loading: {
     color: 'blue',
-    height: '5px'
+    height: '5px',
+    duration: 5000
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -20,12 +23,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ],
-    script: [
-      {
-        src: '/js/bootstrap.bundle.min.js'
-      }
-    ],
+    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -37,7 +35,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src : '~/plugins/vue-apexcharts.js', ssr : false }
+    { src : '~/plugins/vue-apexcharts.js', ssr : false },
+    { src : '~/plugins/bootstrap.js', ssr : false },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -46,21 +45,26 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     'nuxt-purgecss',
+    '@aceforth/nuxt-optimized-images',
     '@nuxtjs/google-fonts'
   ],
 
+  optimizedImages: {
+    optimizeImages: true
+  },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/style-resources',
     'nuxt-lazy-load',
+    // '@nuxtjs/axios',
     '@nuxtjs/component-cache'
   ],
 
-  styleResources: {
-    scss: [
-      './assets/scss/_variables.scss',
-    ]
+  axios: {
+    // extra config e.g
+    // BaseURL: 'https://link-to-API'
   },
+  //...axiosConfig
 
   googleFonts: {
     families: {
@@ -73,20 +77,15 @@ export default {
     /*
      ** You can extend webpack config here
      */
+    extractCSS: true,
     extend(config, ctx) {
       const vueLoader = config.module.rules.find(
         rule => rule.loader === "vue-loader"
       );
-      vueLoader.options.transformToRequire = {
-        img: "src",
-        image: "xlink:href",
-        "b-img": "src",
-        "b-img-lazy": ["src", "blank-src"],
-        "b-card": "img-src",
-        "b-card-img": "img-src",
-        "b-carousel-slide": "img-src",
-        "b-embed": "src"
-      };
     }
-  }
+  },
+  
+  render: {
+    compressor: shrinkRay()
+  },
 }
