@@ -6,7 +6,7 @@ export default {
   
   loading: {
     color: 'blue',
-    height: '5px',
+    height: '3px',
     duration: 5000
   },
 
