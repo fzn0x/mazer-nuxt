@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@nuxtjs/component-cache": "^1.1.6",
-    "apexcharts": "^3.24.0",
+    "apexcharts": "^3.23.1",
     "bootstrap": "^5.0.0-beta1",
     "bootstrap-icons": "^1.3.0",
     "core-js": "^3.8.2",
