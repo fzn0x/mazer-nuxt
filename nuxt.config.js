@@ -57,7 +57,8 @@ export default {
   modules: [
     'nuxt-lazy-load',
     '@nuxtjs/axios',
-    '@nuxtjs/component-cache'
+    '@nuxtjs/component-cache',
+    'vue-sweetalert2/nuxt'
   ],
 
   axios: {
