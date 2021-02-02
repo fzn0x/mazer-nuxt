@@ -10,7 +10,7 @@ export default [
     },
     {
       "name": "Components",
-      "key": "component",
+      "key": "components",
       "icon": "stack",
       "submenu": [
         {
@@ -70,5 +70,32 @@ export default [
           "url": "/components/tooltip"
         }
       ]
-    }  
+    },
+    {
+      "name": "Extra Components",
+      "key": "extra-component",
+      "icon": "collection-fill",
+      "submenu": [
+        {
+          "name": "Avatar",
+          "url": "/extra-components/avatar"
+        },
+        {
+          "name": "Sweet Alert",
+          "url": "/extra-components/sweetalert"
+        },
+        {
+          "name": "Toastify",
+          "url": "/extra-components/toastify"
+        },
+        {
+          "name": "Rating",
+          "url": "/extra-components/rating"
+        },
+        {
+          "name": "Divider",
+          "url": "/extra-components/divider"
+        }
+      ]
+    },    
 ];
