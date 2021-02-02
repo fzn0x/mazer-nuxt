@@ -4,20 +4,7 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/fauzan121002/mazer">
-    <img src="https://d33wubrfki0l68.cloudfront.net/6ff34ec8760318b99888ee4b75d1e265170a84b9/6479c/logos/nuxt.svg" alt="Nuxt logo" height="60">
-  </a>
-</p>
-
-<div align="center">
-
-
-[![tag](https://img.shields.io/github/tag/fauzan121002/mazer-nuxt.svg)](https://github.com/fauzan121002/mazer-nuxt) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/fauzan121002/mazer-nuxt/blob/master/LICENSE) [![Issue](https://img.shields.io/github/issues/fauzan121002/mazer-nuxt)](https://img.shields.io/github/issues/fauzan121002/mazer-nuxt) [![Forks](https://img.shields.io/github/forks/fauzan121002/mazer-nuxt)](https://img.shields.io/github/forks/fauzan121002/mazer-nuxt) [![Stars](https://img.shields.io/github/stars/fauzan121002/mazer-nuxt)](https://img.shields.io/github/stars/fauzan121002/mazer-nuxt)
-
-</div>
-
-<h1 align="center">Mazer for Nuxt</h1>
+![berita-indo-api](https://socialify.git.ci/fauzan121002/mazer-nuxt/image?description=1&font=Raleway&forks=1&issues=1&logo=https%3A%2F%2Fd33wubrfki0l68.cloudfront.net%2F6ff34ec8760318b99888ee4b75d1e265170a84b9%2F6479c%2Flogos%2Fnuxt.svg&owner=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Light)
 
 <p align="center">
   Mazer is a Admin Dashboard Template that can help you develop faster. Made with Bootstrap 5. No jQuery dependency.
