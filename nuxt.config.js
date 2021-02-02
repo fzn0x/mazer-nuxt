@@ -39,6 +39,7 @@ export default {
     { src : '~/plugins/bootstrap.js', ssr : false },
     { src : '~/plugins/toastify.js', ssr : false },
     { src : '~/plugins/rater.js', ssr : false },
+    { src : '~/plugins/perfect-scrollbar.js', ssr : false },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
