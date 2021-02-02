@@ -88,7 +88,6 @@ export default {
 
         // Perfect Scrollbar Init
         if(typeof PerfectScrollbar.default == 'function') {
-            console.log("hehe")
             const container = document.querySelector(".sidebar-wrapper");
             const ps = new PerfectScrollbar.default(container, {
                 wheelPropagation: false
