@@ -24,7 +24,7 @@
                         <h4 class="card-title">Default</h4>
                     </div>
                     <div class="card-body">
-                        <p>You can use default divider with <code>hr</code> tag<code><hr></code></p>
+                        <p>You can use default divider with <code>hr</code> tag. <hr/> </p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum numquam
                             reprehenderit facilis. Dolor blanditiis commodi voluptate esse voluptatum aut natus,
                             distinctio at, officiis ipsam molestiae doloribus ratione corrupti dolorum.</p>
