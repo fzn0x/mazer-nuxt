@@ -6,7 +6,7 @@
             </div>
             <div class="float-end">
                 <p>Developed with <span class="text-danger"><i class="bi bi-heart"></i></span> by <a
-                        href="http://ahmadsaugi.com">Fauzan</a></p>
+                        href="https://github.com/fauzan121002">Fauzan</a></p>
             </div>
         </div>
     </footer>  
