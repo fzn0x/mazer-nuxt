@@ -97,5 +97,28 @@ export default [
           "url": "/extra-components/divider"
         }
       ]
-    },    
+    }, 
+    {
+      "name": "Layouts",
+      "key": "layout",
+      "icon": "grid-1x2-fill",
+      "submenu": [
+        {
+          "name": "Default Layout",
+          "url": "/layouts/default"
+        },
+        // {
+        //   "name": "1 Column",
+        //   "url": "/layouts/1-column"
+        // },
+        // {
+        //   "name": "Vertical with Navbar",
+        //   "url": "/layouts/vertical"
+        // },
+        // {
+        //   "name": "Horizontal Menu",
+        //   "url": "/layouts/horizontal"
+        // }
+      ]
+    },   
 ];
