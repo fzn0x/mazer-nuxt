@@ -111,10 +111,10 @@ export default [
           "name": "1 Column",
           "url": "/layouts/1-column"
         },
-        // {
-        //   "name": "Vertical with Navbar",
-        //   "url": "/layouts/vertical"
-        // },
+        {
+          "name": "Vertical with Navbar",
+          "url": "/layouts/vertical"
+        },
         // {
         //   "name": "Horizontal Menu",
         //   "url": "/layouts/horizontal"
