@@ -107,10 +107,10 @@ export default [
           "name": "Default Layout",
           "url": "/layouts/default"
         },
-        // {
-        //   "name": "1 Column",
-        //   "url": "/layouts/1-column"
-        // },
+        {
+          "name": "1 Column",
+          "url": "/layouts/1-column"
+        },
         // {
         //   "name": "Vertical with Navbar",
         //   "url": "/layouts/vertical"
