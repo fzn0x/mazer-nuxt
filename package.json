@@ -19,7 +19,7 @@
     "feather-icons": "^4.28.0",
     "node-zopfli-es": "^1.0.7",
     "nuxt": "^2.14.12",
-    "nuxt-lazy-load": "^1.2.4",
+    "nuxt-lazy-load": "^1.2.5",
     "perfect-scrollbar": "^1.5.0",
     "rater-js": "^1.0.1",
     "toastify-js": "^1.9.3",
