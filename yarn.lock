@@ -9006,10 +9006,10 @@ vue-style-loader@^4.1.0:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-sweetalert2@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/vue-sweetalert2/-/vue-sweetalert2-4.2.0.tgz#79f541c96091a7a65bcc22b66b49ee14dc4fa0c3"
-  integrity sha512-6D7sNEWiUek8eNUl4oHJJvQPiXFVKGrtoJnUaturyVxBY7+MYQF1C7YEiktSp2UtatUPdObt+ozU5dN1TnvD4w==
+vue-sweetalert2@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/vue-sweetalert2/-/vue-sweetalert2-4.2.1.tgz#708c6b2bb0b19304ffa57c1ea5a1833916aa9cf4"
+  integrity sha512-0YWUXxrzMp/xv348OZgqh4ICq3OUAc3Tt5N0e/0vAtze92vi2E27z+VRDIHtUOarNdjCmkV7w9PSRJzjq9xSNg==
   dependencies:
     sweetalert2 "10.x"
 
