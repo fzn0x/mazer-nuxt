@@ -7,7 +7,7 @@
 ![berita-indo-api](https://socialify.git.ci/fauzan121002/mazer-nuxt/image?description=1&font=Raleway&forks=1&issues=1&logo=https%3A%2F%2Fd33wubrfki0l68.cloudfront.net%2F6ff34ec8760318b99888ee4b75d1e265170a84b9%2F6479c%2Flogos%2Fnuxt.svg&owner=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Light)
 
 <p align="center">
-  Mazer is a Admin Dashboard Template that can help you develop faster. Made with Bootstrap 5. No jQuery dependency.
+  <a href="https://github.com/zuramai/mazer">Mazer</a> is a Admin Dashboard Template that can help you develop faster. Made with Bootstrap 5. No jQuery dependency.
 </p>
 
 ## Table of contents
@@ -53,8 +53,10 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 See Contributing Guide [here](./CONTRIBUTING.md)
 
 ## License
+
 Mazer Nuxt is under MIT License.
 
 ## About the Author
-Mazer is created by <a href="https://ahmadsaugi.com">Saugi</a>. 
+
+Mazer is created by <a href="https://ahmadsaugi.com">Saugi</a>.
 Mazer Nuxt is developed by <a href="#">Fauzan</a>.
