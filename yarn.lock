@@ -1844,10 +1844,10 @@ anymatch@~3.1.1:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-apexcharts@^3.26.0:
-  version "3.26.0"
-  resolved "https://registry.yarnpkg.com/apexcharts/-/apexcharts-3.26.0.tgz#a78abc108b2e1b3086a738f0ec7c98e292f4a14b"
-  integrity sha512-zdYHs3k3tgmCn1BpYLj7rhGEndBYF33Pq1+g0ora37xAr+3act5CJrpdXM2jx2boVUyXgavoSp6sa8WpK7RkSA==
+apexcharts@^3.26.1:
+  version "3.26.1"
+  resolved "https://registry.yarnpkg.com/apexcharts/-/apexcharts-3.26.1.tgz#2094ec0cfd00ed8129d93e73e75018716d55ef5b"
+  integrity sha512-Z/pfGTsL4YUm1tHd6a0d0G2hX4XUmhEI0b/5BxVK69dEB/XXvVMX9hKCkcIx+kPyVqVFCuo91ZjCdqjMcmSVBA==
   dependencies:
     svg.draggable.js "^2.2.2"
     svg.easing.js "^2.0.0"
@@ -6002,10 +6002,10 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt-lazy-load@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/nuxt-lazy-load/-/nuxt-lazy-load-1.2.4.tgz#11ff7bc8fc61c812d4d15c8120477d9b05fa8a31"
-  integrity sha512-b+d7zwOmikv2jqPGO0LNr3RKu8RcuJ3amGhHiiWtgseOLh8NKMl9xgSqprYBhGOD8mSOk5euurteVZWVjR7bYQ==
+nuxt-lazy-load@^1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/nuxt-lazy-load/-/nuxt-lazy-load-1.2.6.tgz#423a07a4ccb248a407760f1255c96e56950e9c37"
+  integrity sha512-ANR0szw+URSJkqpcg+7m+DdOJbAhfXoQ+lvujvV+ZUqzid3IOVfCBYyJjDY0AID3BnpaZxrMMvcePxpq6Rdhvw==
   dependencies:
     intersection-observer "^0.7.0"
     string-replace-loader "^2.1.1"
