@@ -22,7 +22,7 @@
     "nuxt-lazy-load": "^1.2.6",
     "perfect-scrollbar": "^1.5.1",
     "rater-js": "^1.0.1",
-    "toastify-js": "^1.9.3",
+    "toastify-js": "^1.11.0",
     "vue-apexcharts": "^1.6.0",
     "vue-sweetalert2": "^4.2.1"
   },
