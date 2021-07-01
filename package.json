@@ -24,7 +24,7 @@
     "rater-js": "^1.0.1",
     "toastify-js": "^1.9.3",
     "vue-apexcharts": "^1.6.0",
-    "vue-sweetalert2": "^4.2.1"
+    "vue-sweetalert2": "^5.0.2"
   },
   "devDependencies": {
     "@aceforth/nuxt-optimized-images": "^1.4.0",
