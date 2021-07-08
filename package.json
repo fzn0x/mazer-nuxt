@@ -12,7 +12,7 @@
     "@nuxtjs/axios": "^5.13.1",
     "@nuxtjs/component-cache": "^1.1.6",
     "@popperjs/core": "^2.6.0",
-    "apexcharts": "^3.26.2",
+    "apexcharts": "^3.27.2",
     "bootstrap": "^5.0.0-beta2",
     "bootstrap-icons": "^1.5.0",
     "core-js": "^3.8.2",
