@@ -20,7 +20,7 @@
     "node-zopfli-es": "^1.0.7",
     "nuxt": "^2.15.8",
     "nuxt-lazy-load": "^1.2.7",
-    "perfect-scrollbar": "^1.5.1",
+    "perfect-scrollbar": "^1.5.2",
     "rater-js": "^1.0.1",
     "toastify-js": "^1.11.2",
     "vue-apexcharts": "^1.6.0",
