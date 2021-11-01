@@ -6244,10 +6244,10 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt-lazy-load@^1.2.7:
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/nuxt-lazy-load/-/nuxt-lazy-load-1.2.7.tgz#02997fe711738d8f0fde80f598919713e1ea7494"
-  integrity sha512-Bqv2w56tfldk8kMc+z2NvW2It5nzFvYDCOV2c5UxwD0s7S3tSf0Tnc31uX9RK65Of/k1PTs3c2biJpj6Ukr7xA==
+nuxt-lazy-load@^1.2.9:
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/nuxt-lazy-load/-/nuxt-lazy-load-1.2.9.tgz#cad74b0efbb106545d39c84c2277bc18841226aa"
+  integrity sha512-TB9k4s9d/M1k3hLasBQChkHFTSDlkov2AQNcE1d6vFuLuy4cjvVnoVO8VRHaVtIKPETbwmsDyc+mmi87LJZ7pg==
   dependencies:
     intersection-observer "^0.7.0"
     string-replace-loader "^2.1.1"
