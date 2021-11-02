@@ -2258,10 +2258,10 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
-bootstrap-icons@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/bootstrap-icons/-/bootstrap-icons-1.5.0.tgz#2cb19da148aa9105cb3174de2963564982d3dc55"
-  integrity sha512-44feMc7DE1Ccpsas/1wioN8ewFJNquvi5FewA06wLnqct7CwMdGDVy41ieHaacogzDqLfG8nADIvMNp9e4bfbA==
+bootstrap-icons@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/bootstrap-icons/-/bootstrap-icons-1.7.0.tgz#856afbfe35287a71638d9a1b96f67faf72bbb1b6"
+  integrity sha512-x2ORQ3lv1QdSnIzzQdU8mf83fbCq4FIaUinrAWw+a/d186vO3Ph7qUfqzvQDBA41AD6IoxdRHD6zUt9IXC1J6A==
 
 bootstrap@^5.1.2:
   version "5.1.2"
