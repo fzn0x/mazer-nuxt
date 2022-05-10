@@ -13,7 +13,7 @@
     "@popperjs/core": "^2.11.2",
     "apexcharts": "^3.33.0",
     "bootstrap": "5.0.2",
-    "bootstrap-icons": "^1.5.0",
+    "bootstrap-icons": "^1.8.1",
     "core-js": "^3.18.2",
     "feather-icons": "^4.28.0",
     "node-zopfli-es": "^1.0.7",
