@@ -24,7 +24,7 @@
     "sass": "1.47.0",
     "toastify-js": "^1.11.2",
     "vue-apexcharts": "^1.6.0",
-    "vue-sweetalert2": "^4.2.1"
+    "vue-sweetalert2": "^5.0.5"
   },
   "devDependencies": {
     "@aceforth/nuxt-optimized-images": "^1.4.0",
