@@ -14,7 +14,7 @@
     "apexcharts": "^3.33.0",
     "bootstrap": "5.0.2",
     "bootstrap-icons": "^1.5.0",
-    "core-js": "^3.18.2",
+    "core-js": "^3.23.2",
     "feather-icons": "^4.28.0",
     "node-zopfli-es": "^1.0.7",
     "nuxt": "^2.15.8",
