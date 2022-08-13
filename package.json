@@ -21,7 +21,7 @@
     "nuxt-lazy-load": "^1.2.7",
     "perfect-scrollbar": "^1.5.5",
     "rater-js": "^1.0.1",
-    "sass": "1.47.0",
+    "sass": "1.54.0",
     "toastify-js": "^1.11.2",
     "vue-apexcharts": "^1.6.0",
     "vue-sweetalert2": "^4.2.1"
