@@ -3,7 +3,7 @@
 
 // Bootstrap + Icons
 @import "node_modules/bootstrap/scss/bootstrap";
-@import "node_modules/bootstrap-icons/font/bootstrap-icons";
+@import "~/assets/vendors/bootstrap-icons/bootstrap-icons.css";
 
 // Fix icon placement
 body .bi::before, [class^=bi-]::before, [class*=" bi-"]::before {
