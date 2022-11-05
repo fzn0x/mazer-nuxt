@@ -104,11 +104,7 @@
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="d-flex align-items-center">
-                                            <svg class="bi text-primary" width="32" height="32" fill="blue"
-                                                style="width:10px">
-                                                <use
-                                                    xlink:href="~assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
-                                            </svg>
+                                            <i class="bi bi-circle-fill text-primary fs-8"></i>
                                             <h5 class="mb-0 ms-3">Europe</h5>
                                         </div>
                                     </div>
@@ -128,11 +124,7 @@
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="d-flex align-items-center">
-                                            <svg class="bi text-success" width="32" height="32" fill="blue"
-                                                style="width:10px">
-                                                <use
-                                                    xlink:href="~assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
-                                            </svg>
+                                            <i class="bi bi-circle-fill text-primary fs-8"></i>
                                             <h5 class="mb-0 ms-3">America</h5>
                                         </div>
                                     </div>
@@ -152,11 +144,7 @@
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="d-flex align-items-center">
-                                            <svg class="bi text-danger" width="32" height="32" fill="blue"
-                                                style="width:10px">
-                                                <use
-                                                    xlink:href="~assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
-                                            </svg>
+                                            <i class="bi bi-circle-fill text-primary fs-8"></i>
                                             <h5 class="mb-0 ms-3">Indonesia</h5>
                                         </div>
                                     </div>
