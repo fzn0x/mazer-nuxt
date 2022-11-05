@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     "~/assets/scss/app.scss",
     "~/assets/scss/icons.scss"
   ],
+  ssr: false,
   modules: [
   ],
   buildModules: [
