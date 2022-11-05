@@ -32,7 +32,6 @@ dependencies:
   bootstrap-icons: 1.9.1
   core-js: 3.26.0
   feather-icons: 4.29.0
-  perfect-scrollbar: 1.5.5
   rater-js: 1.0.1
   toastify-js: 1.12.0
   vue-apexcharts: 1.6.2_apexcharts@3.36.1
@@ -45,6 +44,7 @@ devDependencies:
   '@pinia/nuxt': 0.4.3_rollup@2.79.1+vue@3.2.41
   nuxt: 3.0.0-rc.13_rollup@2.79.1+sass@1.56.0
   nuxt-purgecss: 1.0.0_webpack@5.74.0
+  perfect-scrollbar: 1.5.5
   pinia: 2.0.23_vue@3.2.41
   sass: 1.56.0
   sass-loader: 13.1.0_sass@1.56.0+webpack@5.74.0
@@ -4245,7 +4245,7 @@ packages:
 
   /perfect-scrollbar/1.5.5:
     resolution: {integrity: sha512-dzalfutyP3e/FOpdlhVryN4AJ5XDVauVWxybSkLZmakFE2sS3y3pc4JnSprw8tGmHvkaG5Edr5T7LBTZ+WWU2g==}
-    dev: false
+    dev: true
 
   /performance-now/2.1.0:
     resolution: {integrity: sha512-7EAHlyLHI56VEIdK57uwHdHKIaAGbnXPiw0yWbarQZOKaKpvUIgW0jWRVLiatnM+XXlSwsanIBH/hzGMJulMow==}
