@@ -5,7 +5,7 @@
       </div>
       <div id="main">
           <Header></Header>
-          <Nuxt/>
+          <slot/>
           <Footer></Footer>
       </div>
   </div>

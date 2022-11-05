@@ -9,6 +9,6 @@
         </div>
     </nav>
 
-    <Nuxt/>
+    <slot/>
 </div>
 </template>

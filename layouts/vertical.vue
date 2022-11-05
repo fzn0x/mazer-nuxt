@@ -6,7 +6,7 @@
         <div id="main" class="layout-navbar">
             <VerticalHeader></VerticalHeader>
             <div id="main-content">
-                <Nuxt/>
+                <slot/>
                 <Footer></Footer>
             </div>
         </div>
