@@ -87,15 +87,15 @@
                         <h5>Custom Loader</h5>
                     </div>
                     <div class="card-body">
-                        <img data-src="~assets/vendors/svg-loaders/audio.svg" class="me-4" style="width: 3rem" v-lazy-load alt="...">
+                        <img data-src="~assets/vendors/svg-loaders/audio.svg" class="me-4" style="width: 3rem"  alt="...">
                         <img data-src="~assets/vendors/svg-loaders/ball-triangle.svg" class="me-4" style="width: 3rem"
-                            v-lazy-load alt="...">
-                        <img data-src="~assets/vendors/svg-loaders/circles.svg" class="me-4" style="width: 3rem" v-lazy-load alt="...">
-                        <img data-src="~assets/vendors/svg-loaders/grid.svg" class="me-4" style="width: 3rem" v-lazy-load alt="...">
-                        <img data-src="~assets/vendors/svg-loaders/hearts.svg" class="me-4" style="width: 3rem" v-lazy-load alt="...">
-                        <img data-src="~assets/vendors/svg-loaders/oval.svg" class="me-4" style="width: 3rem" v-lazy-load alt="...">
-                        <img data-src="~assets/vendors/svg-loaders/puff.svg" class="me-4" style="width: 3rem" v-lazy-load alt="...">
-                        <img data-src="~assets/vendors/svg-loaders/rings.svg" class="me-4" style="width: 3rem" v-lazy-load alt="...">
+                             alt="...">
+                        <img data-src="~assets/vendors/svg-loaders/circles.svg" class="me-4" style="width: 3rem"  alt="...">
+                        <img data-src="~assets/vendors/svg-loaders/grid.svg" class="me-4" style="width: 3rem"  alt="...">
+                        <img data-src="~assets/vendors/svg-loaders/hearts.svg" class="me-4" style="width: 3rem"  alt="...">
+                        <img data-src="~assets/vendors/svg-loaders/oval.svg" class="me-4" style="width: 3rem"  alt="...">
+                        <img data-src="~assets/vendors/svg-loaders/puff.svg" class="me-4" style="width: 3rem"  alt="...">
+                        <img data-src="~assets/vendors/svg-loaders/rings.svg" class="me-4" style="width: 3rem"  alt="...">
                     </div>
                 </div>
             </div>

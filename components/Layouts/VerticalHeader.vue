@@ -47,7 +47,7 @@
                                 </div>
                                 <div class="user-img d-flex align-items-center">
                                     <div class="avatar avatar-md">
-                                        <img data-src="~assets/images/faces/1.jpg" v-lazy-load>
+                                        <img data-src="~assets/images/faces/1.jpg" >
                                     </div>
                                 </div>
                             </div>
