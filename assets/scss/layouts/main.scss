@@ -1,15 +1,28 @@
 #main {
     margin-left: 300px;
     padding: 2rem;
+    min-height: 100vh;
     @media screen and (max-width: 1199px) {
         margin-left: 0;
     }
     &.layout-navbar {
         padding: 0;
+        transition: margin-left 0.5s ease-out
+    }
+    &.layout-horizontal {
+        padding: 0;
+        margin: 0;
     }
     #main-content {
         padding: 2rem;
     }
+}
+#main, #main-content {
+    display: flex;
+    flex-direction: column;
+}
+#main-content, .page-heading {
+    flex-grow: 1;
 }
 .page-heading {
     margin:  0 0 2rem;

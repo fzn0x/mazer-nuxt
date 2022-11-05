@@ -23,8 +23,8 @@
                                 <span>{{ item.name }}</span>
                             </a>
                             <ul class="submenu" :class="{ 'active' : subIsActive(item) } ">
-                                <template v-for="sub in item.submenu">
-                                    <li class="submenu-item" :class="{ 'active' : isActive(sub.url) } " :key="sub.key">
+                                <template>
+                                    <li class="submenu-item" :class="{ 'active' : isActive(sub.url) } " v-for="sub in item.submenu" :key="sub.key">
                                         <nuxt-link :to="sub.url">{{ sub.name }}</nuxt-link>
                                     </li>
                                 </template>

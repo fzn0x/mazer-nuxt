@@ -1,0 +1,82 @@
+.toast .btn-close {
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+}
+
+// Sweetalert2 Dark
+.swal2-popup, .swal2-validation-message {
+    background-color: $swal-popup-bg !important;
+    color: $swal-popup-color !important;
+}
+.swal2-title {
+    color: $swal-popup-color !important;
+}
+.swal2-styled.swal2-confirm {
+    background-color: $swal-confirm-button-bg !important;
+}
+.swal2-styled.swal2-confirm:hover {
+    background-color: $swal-confirm-button-bg-hover !important;
+}
+
+// Apexcharts
+.apexcharts-text tspan {
+    fill: $body-color !important;
+}
+.apexcharts-legend-text {
+    color: $body-color !important;
+}
+
+// Toggle theme
+.theme-toggle {
+    color: #9899ac;
+}
+
+// Pricing Card
+.pricing{
+    .card{
+        border: none;
+        box-shadow: none;
+    }
+}
+
+// Note
+.note-editing-area .note-editable  {
+    background-color: white;
+}
+// DataTable
+.dataTable-input {
+    background-color: $input-bg;
+    border-color: $input-border-color;
+    transition: all .2s ease-in-out;
+    
+    &:focus {
+        background-color: $input-focus-bg;
+        border-color: $input-focus-border-color;
+        color: $input-focus-color;
+    }
+    
+}
+
+// override selector
+// see original on mixins\_forms.scss
+@mixin form-validation-state-selector($state) {
+    @if ($state == "valid" or $state == "invalid") {
+        .was-validated :#{$state},
+        .is-#{$state} {
+            @content;
+        }
+    } @else {
+        .is-#{$state} {
+            @content;
+        }
+    }
+}
+
+// to fix feedback message on input group
+@each $state in map-keys($form-validation-states) {
+    @include form-validation-state-selector($state) {
+        ~ .#{$state}-feedback,
+        ~ .#{$state}-tooltip {
+            display: block;
+        }
+    }
+}
