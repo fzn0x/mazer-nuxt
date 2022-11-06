@@ -31,31 +31,30 @@ onMounted(() => {
   })
 })
 
-const subIsActive = (item)=>  {
-    const paths = Array.isArray(item.submenu) ? item.submenu : [];
+const isSubActive = computed(()=>  {
+    const paths = Array.isArray(props.item.submenu) ? props.item.submenu : [];
     return paths.some(path => {
         return route.path.indexOf(path.url) === 0;
     });
-}
+})
 
-const isHasSub = (item)=>{ 
-    if(item.hasOwnProperty("submenu")){
-        if(item.submenu.length > 0){
+const hasSub = computed(()=>{ 
+    if(props.item.hasOwnProperty("submenu")){
+        if(props.item.submenu.length > 0){
             return true;
         }
     }
-
     return false;
-}
+})
 </script>
 <template>
-<li class="sidebar-item" :class="{ 'active' : subIsActive(item), 'has-sub' : isHasSub(item) }" ref="sidebarItem"  >
-    <template v-if="isHasSub(item)">
+<li class="sidebar-item" :class="{ 'active' : isSubActive, 'has-sub' : hasSub }" ref="sidebarItem"  >
+    <template v-if="hasSub">
         <a class="sidebar-link" href="#">
             <i :class="`bi bi-${item.icon}`"></i>
             <span>{{ item.name }}</span>
         </a>
-        <ul class="submenu" :class="{ 'active' : subIsActive(item) } ">
+        <ul class="submenu" :class="{ 'active' : isSubActive } ">
             <li v-for="(sub,i) in item.submenu" :key="i" class="submenu-item" >
                 <nuxt-link :to="sub.url">{{ sub.name }}</nuxt-link>
             </li>

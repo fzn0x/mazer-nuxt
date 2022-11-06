@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <div id="sidebar" class="active">
-            <Sidebar></Sidebar>
+            <LayoutSidebar></LayoutSidebar>
         </div>
         <div id="main" class="layout-navbar">
             <VerticalHeader></VerticalHeader>

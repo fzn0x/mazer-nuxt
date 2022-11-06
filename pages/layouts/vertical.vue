@@ -1,3 +1,8 @@
+<script setup lang="ts">
+definePageMeta({
+    layout: 'vertical'
+})
+</script>
 <template>
 <div class="page-heading">
     <div class="page-title">
@@ -30,9 +35,3 @@
     </section>
 </div>
 </template>
-
-<script>
-export default {
-    layout: 'vertical'
-}
-</script>
