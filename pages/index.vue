@@ -84,11 +84,11 @@
                             </div>
                             <div class="card-body">
                               <client-only>
-                                <VueApexCharts
+                                <apexchart
                                   height="300"
                                   :options="optionsProfileVisit"
                                   :series="optionsProfileVisit.series"
-                                ></VueApexCharts>
+                                ></apexchart>
                               </client-only>
                             </div>
                         </div>
@@ -113,11 +113,11 @@
                                     </div>
                                     <div class="col-12">
                                       <client-only>
-                                        <VueApexCharts
+                                        <apexchart
                                           height="80"
                                           :options="optionsEurope"
                                           :series="optionsEurope.series"
-                                        ></VueApexCharts>
+                                        ></apexchart>
                                       </client-only>
                                     </div>
                                 </div>
@@ -133,11 +133,11 @@
                                     </div>
                                     <div class="col-12">
                                       <client-only>
-                                        <VueApexCharts
+                                        <apexchart
                                           height="80"
                                           :options="optionsAmerica"
                                           :series="optionsAmerica.series"
-                                        ></VueApexCharts>
+                                        ></apexchart>
                                       </client-only>
                                     </div>
                                 </div>
@@ -153,11 +153,11 @@
                                     </div>
                                     <div class="col-12">
                                       <client-only>
-                                        <VueApexCharts
+                                        <apexchart
                                           height="80"
                                           :options="optionsIndonesia"
                                           :series="optionsIndonesia.series"
-                                        ></VueApexCharts>
+                                        ></apexchart>
                                       </client-only>
                                     </div>
                                 </div>
@@ -272,11 +272,11 @@
                     </div>
                     <div class="card-body">
                       <client-only>
-                        <VueApexCharts
+                        <apexchart
                           height="350"
                           :options="optionsVisitorsProfile"
                           :series="optionsVisitorsProfile.series"
-                        ></VueApexCharts>
+                        ></apexchart>
                       </client-only>
                     </div>
                 </div>

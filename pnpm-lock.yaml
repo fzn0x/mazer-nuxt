@@ -23,6 +23,7 @@ specifiers:
   toastify-js: ^1.11.2
   vue-apexcharts: ^1.6.0
   vue-sweetalert2: ^4.2.1
+  vue3-apexcharts: ^1.4.1
 
 dependencies:
   '@nuxtjs/component-cache': 1.1.6
@@ -36,6 +37,7 @@ dependencies:
   toastify-js: 1.12.0
   vue-apexcharts: 1.6.2_apexcharts@3.36.1
   vue-sweetalert2: 4.3.1_vue@3.2.41
+  vue3-apexcharts: 1.4.1_4ba7p7c2wscmrgwbvagj7dzp3m
 
 devDependencies:
   '@aceforth/nuxt-optimized-images': 1.4.0_webpack@5.74.0
@@ -5955,6 +5957,16 @@ packages:
       '@vue/runtime-dom': 3.2.41
       '@vue/server-renderer': 3.2.41_vue@3.2.41
       '@vue/shared': 3.2.41
+
+  /vue3-apexcharts/1.4.1_4ba7p7c2wscmrgwbvagj7dzp3m:
+    resolution: {integrity: sha512-96qP8JDqB9vwU7bkG5nVU+E0UGQn7yYQVqUUCLQMYWDuQyu2vE77H/UFZ1yI+hwzlSTBKT9BqnNG8JsFegB3eg==}
+    peerDependencies:
+      apexcharts: '> 3.0.0'
+      vue: '> 3.0.0'
+    dependencies:
+      apexcharts: 3.36.1
+      vue: 3.2.41
+    dev: false
 
   /watchpack/2.4.0:
     resolution: {integrity: sha512-Lcvm7MGST/4fup+ifyKi2hjyIAwcdI4HRgtvTpIUxBRhB+RFtUh8XtDOxUfctVCnhVi+QQj49i91OyvzkJl6cg==}
