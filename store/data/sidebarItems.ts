@@ -1,12 +1,12 @@
 export default [
     {
-        "name": "Menu",
-        "isTitle": true
+      "name": "Menu",
+      "isTitle": true
     },
     {
-        "name": "Dashboard",
-        "url": "/",
-        "icon": "grid-fill"
+      "name": "Dashboard",
+      "url": "/",
+      "icon": "grid-fill"
     },
     {
       "name": "Components",
