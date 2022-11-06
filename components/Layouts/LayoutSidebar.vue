@@ -94,7 +94,7 @@ const isHasSub = (item)=>{
                         </li>
                         <li  v-else class="sidebar-item" :class="{ 'active' : subIsActive(item), 'has-sub' : isHasSub(item) }" ref="sidebarItemsEl"  >
                             <template v-if="isHasSub(item)">
-                                <a class="sidebar-link">
+                                <a class="sidebar-link" href="#">
                                     <i :class="`bi bi-${item.icon}`"></i>
                                     <span>{{ item.name }}</span>
                                 </a>

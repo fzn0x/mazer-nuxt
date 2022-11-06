@@ -12,15 +12,3 @@
         </div>
     </div>
 </template>
-<script>
-import VerticalHeader from '../components/Layouts/VerticalHeader.vue'
-import Sidebar from '../components/Layouts/Sidebar.vue'
-import Footer from '../components/Layouts/Footer.vue'
-export default {
-  components:{
-    VerticalHeader:VerticalHeader,
-    Sidebar:Sidebar,
-    Footer:Footer,
-  }
-}
-</script>
