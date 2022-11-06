@@ -84,7 +84,7 @@ onMounted(() => {
         <div class="sidebar-header">
             <div class="d-flex justify-content-between">
                 <div class="logo">
-                    <router-link to="/"><img data-src="~assets/images/logo/logo.png"  alt="Logo" srcset=""></router-link>
+                    <nuxt-link to="/"><img src="~/assets/images/logo/logo.png"  alt="Logo" ></nuxt-link>
                 </div>
                 <div class="toggler">
                     <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
