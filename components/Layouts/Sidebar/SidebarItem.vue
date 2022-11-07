@@ -46,6 +46,7 @@ const hasSub = computed(()=>{
     }
     return false;
 })
+const isUrlActive = (url: string) => url == route.path
 </script>
 <template>
 <li class="sidebar-item" :class="{ 'active' : isSubActive, 'has-sub' : hasSub }" ref="sidebarItem"  >
@@ -55,7 +56,7 @@ const hasSub = computed(()=>{
             <span>{{ item.name }}</span>
         </a>
         <ul class="submenu" :class="{ 'active' : isSubActive } ">
-            <li v-for="(sub,i) in item.submenu" :key="i" class="submenu-item" >
+            <li v-for="(sub,i) in item.submenu" :key="i" class="submenu-item" :class="{'active': isUrlActive(sub.url)}">
                 <nuxt-link :to="sub.url">{{ sub.name }}</nuxt-link>
             </li>
         </ul>                       
