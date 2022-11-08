@@ -7,8 +7,6 @@ import { useStore } from '~/store';
 const store = useStore()
 
 const isSidebarActive = computed(() => store.isSidebarActive)
-console.log(isSidebarActive.value)
-store.toggleSidebar()
 
 
 const sidebarWrapper = ref<HTMLElement>()

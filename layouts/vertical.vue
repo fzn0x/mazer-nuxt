@@ -1,3 +1,9 @@
+<script lang="ts" setup>
+import LayoutSidebar from '~~/components/Layouts/Sidebar/LayoutSidebar.vue';
+import VerticalHeader from '~~/components/Layouts/VerticalHeader.vue';
+import LayoutFooter from '~~/components/Layouts/LayoutFooter.vue';
+
+</script>
 <template>
     <div id="app">
         <div id="sidebar" class="active">
@@ -7,7 +13,7 @@
             <VerticalHeader></VerticalHeader>
             <div id="main-content">
                 <slot/>
-                <Footer></Footer>
+                <LayoutFooter></LayoutFooter>
             </div>
         </div>
     </div>
