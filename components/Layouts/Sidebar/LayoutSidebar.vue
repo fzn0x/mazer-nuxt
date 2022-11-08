@@ -6,6 +6,7 @@ import {ref, watch, computed, onMounted} from "vue";
 
 const store = useStore()
 const isSidebarActive = computed(() => store.isSidebarActive)
+
 const sidebarWrapper = ref<HTMLElement>()
 
 
