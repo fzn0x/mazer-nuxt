@@ -72,33 +72,6 @@ export default [
       ]
     },
     {
-      "name": "Extra Components",
-      "key": "extra-component",
-      "icon": "collection-fill",
-      "submenu": [
-        {
-          "name": "Avatar",
-          "url": "/extra-components/avatar"
-        },
-        {
-          "name": "Sweet Alert",
-          "url": "/extra-components/sweetalert"
-        },
-        {
-          "name": "Toastify",
-          "url": "/extra-components/toastify"
-        },
-        {
-          "name": "Rating",
-          "url": "/extra-components/rating"
-        },
-        {
-          "name": "Divider",
-          "url": "/extra-components/divider"
-        }
-      ]
-    }, 
-    {
       "name": "Layouts",
       "key": "layout",
       "icon": "grid-1x2-fill",
@@ -115,10 +88,6 @@ export default [
           "name": "Vertical with Navbar",
           "url": "/layouts/vertical"
         },
-        // {
-        //   "name": "Horizontal Menu",
-        //   "url": "/layouts/horizontal"
-        // }
       ]
     },   
 ];
