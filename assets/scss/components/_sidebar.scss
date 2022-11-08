@@ -114,13 +114,11 @@
         }
         .submenu {
             list-style: none;
-            display: none;
             // max-height: 0;
             transition: max-height 2s cubic-bezier(0, 0.55, 0.45, 1);
             overflow: hidden;
             &.active {
                 max-height: 999px;
-                display: block;
             }
             .submenu-item {
                 &.active {
