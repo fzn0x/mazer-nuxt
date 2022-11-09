@@ -2,36 +2,27 @@
   "name": "mazer-nuxt",
   "version": "1.0.1",
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.13.1",
-    "@nuxtjs/component-cache": "^1.1.6",
     "@popperjs/core": "^2.11.2",
     "apexcharts": "^3.33.0",
-    "bootstrap": "5.0.2",
-    "bootstrap-icons": "^1.5.0",
-    "core-js": "^3.18.2",
+    "bootstrap": "5.2.2",
+    "bootstrap-icons": "^1.9.0",
     "feather-icons": "^4.28.0",
-    "node-zopfli-es": "^1.0.7",
-    "nuxt": "^2.15.8",
-    "nuxt-lazy-load": "^1.2.7",
-    "perfect-scrollbar": "^1.5.5",
-    "rater-js": "^1.0.1",
-    "sass": "1.47.0",
-    "toastify-js": "^1.11.2",
-    "vue-apexcharts": "^1.6.0",
-    "vue-sweetalert2": "^4.2.1"
+    "vue3-apexcharts": "^1.4.1"
   },
   "devDependencies": {
-    "@aceforth/nuxt-optimized-images": "^1.4.0",
-    "@nuxtjs/google-fonts": "^1.3.0",
-    "@nuxtjs/style-resources": "^1.2.1",
-    "nuxt-purgecss": "^1.0.0",
-    "sass-loader": "^10.1.1",
-    "shrink-ray-current": "^4.1.3"
+    "@nuxtjs/google-fonts": "^3.0.0-1",
+    "@pinia/nuxt": "^0.4.3",
+    "nuxt": "3.0.0-rc.13",
+    "perfect-scrollbar": "^1.5.5",
+    "pinia": "^2.0.23",
+    "sass": "1.56.0",
+    "sass-loader": "^13.1.0"
   }
 }

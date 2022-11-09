@@ -10,7 +10,7 @@
             <div class="col-12 col-md-6 order-md-2 order-first">
                 <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><router-link to="/">Dashboard</router-link></li>
+                        <li class="breadcrumb-item"><nuxt-link to="/">Dashboard</nuxt-link></li>
                         <li class="breadcrumb-item active" aria-current="page">Card</li>
                     </ol>
                 </nav>
@@ -30,7 +30,7 @@
                                 sugar plum sugar plum jelly-o jujubes bonbon dessert carrot cake.
                             </p>
                         </div>
-                        <img class="img-fluid w-100" data-src="~assets/images/samples/banana.jpg" alt="Card image cap" v-lazy-load>
+                        <img class="img-fluid w-100" src="~assets/images/samples/banana.jpg" alt="Card image cap" >
                     </div>
                     <div class="card-footer d-flex justify-content-between">
                         <span>Card Footer</span>
@@ -113,8 +113,8 @@
             <div class="col-xl-4 col-md-6 col-sm-12">
                 <div class="card">
                     <div class="card-content">
-                        <img data-src="~assets/images/samples/motorcycle.jpg" class="card-img-top img-fluid"
-                            alt="singleminded" v-lazy-load>
+                        <img src="~assets/images/samples/motorcycle.jpg" class="card-img-top img-fluid"
+                            alt="singleminded" >
                         <div class="card-body">
                             <h5 class="card-title">Be Single Minded</h5>
                             <p class="card-text">
@@ -161,15 +161,15 @@
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img data-src="~assets/images/samples/architecture1.jpg" class="d-block w-100"
-                                        alt="Image Architecture" v-lazy-load>
+                                    <img src="~assets/images/samples/architecture1.jpg" class="d-block w-100"
+                                        alt="Image Architecture" >
                                 </div>
                                 <div class="carousel-item">
-                                    <img data-src="~assets/images/samples/bg-mountain.jpg" class="d-block w-100"
-                                        alt="Image Mountain" v-lazy-load>
+                                    <img src="~assets/images/samples/bg-mountain.jpg" class="d-block w-100"
+                                        alt="Image Mountain" >
                                 </div>
                                 <div class="carousel-item">
-                                    <img data-src="~assets/images/samples/jump.jpg" class="d-block w-100" alt="Image Jump" v-lazy-load>
+                                    <img src="~assets/images/samples/jump.jpg" class="d-block w-100" alt="Image Jump" >
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
@@ -253,8 +253,8 @@
             <div class="col-md-6 col-sm-12">
                 <div class="card">
                     <div class="card-content">
-                        <img class="card-img-top img-fluid" data-src="~assets/images/samples/origami.jpg" alt="Card image cap"
-                            style="height: 20rem" v-lazy-load/>
+                        <img class="card-img-top img-fluid" src="~assets/images/samples/origami.jpg" alt="Card image cap"
+                            style="height: 20rem" />
                         <div class="card-body">
                             <h4 class="card-title">Top Image Cap</h4>
                             <p class="card-text">
@@ -288,8 +288,8 @@
                             </p>
                             <small class="text-muted">Last updated 3 mins ago</small>
                         </div>
-                        <img class="card-img-bottom img-fluid" data-src="~assets/images/samples/water.jpg"
-                            alt="Card image cap" style="height: 20rem; object-fit: cover;" v-lazy-load>
+                        <img class="card-img-bottom img-fluid" src="~assets/images/samples/water.jpg"
+                            alt="Card image cap" style="height: 20rem; object-fit: cover;" >
                     </div>
                 </div>
             </div>
@@ -310,7 +310,7 @@
                 <div class="card-group">
                     <div class="card">
                         <div class="card-content">
-                            <img class="card-img-top img-fluid" data-src="~assets/images/samples/1.png" alt="Card image cap" v-lazy-load>
+                            <img class="card-img-top img-fluid" src="~assets/images/samples/1.png" alt="Card image cap" >
                             <div class="card-body">
                                 <h4 class="card-title">Card title</h4>
                                 <p class="card-text">
@@ -322,8 +322,8 @@
                     </div>
                     <div class="card">
                         <div class="card-content">
-                            <img class="card-img-top img-fluid" data-src="~assets/images/samples/2.png"
-                                alt="Card image cap" v-lazy-load/>
+                            <img class="card-img-top img-fluid" src="~assets/images/samples/2.png"
+                                alt="Card image cap" />
                             <div class="card-body">
                                 <h4 class="card-title">Card title</h4>
                                 <p class="card-text">
@@ -336,7 +336,7 @@
                     </div>
                     <div class="card">
                         <div class="card-content">
-                            <img class="card-img-top img-fluid" data-src="~assets/images/samples/3.png" alt="Card image cap" v-lazy-load>
+                            <img class="card-img-top img-fluid" src="~assets/images/samples/3.png" alt="Card image cap" >
                             <div class="card-body">
                                 <h4 class="card-title">Card title</h4>
                                 <p class="card-text">
@@ -349,7 +349,7 @@
                     </div>
                     <div class="card">
                         <div class="card-content">
-                            <img class="card-img-top img-fluid" data-src="~assets/images/samples/4.png" alt="Card image cap" v-lazy-load>
+                            <img class="card-img-top img-fluid" src="~assets/images/samples/4.png" alt="Card image cap" >
                             <div class="card-body">
                                 <h4 class="card-title">Card title</h4>
                                 <p class="card-text">

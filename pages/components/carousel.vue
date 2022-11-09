@@ -10,7 +10,7 @@
       <div class="col-12 col-md-6 order-md-2 order-first">
         <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><router-link to="/">Dashboard</router-link></li>
+            <li class="breadcrumb-item"><nuxt-link to="/">Dashboard</nuxt-link></li>
             <li class="breadcrumb-item active" aria-current="page">Carousel</li>
           </ol>
         </nav>
@@ -29,10 +29,10 @@
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img data-src="~assets/images/samples/building.jpg" class="d-block w-100" alt="..." v-lazy-load>
+                  <img src="~assets/images/samples/building.jpg" class="d-block w-100" alt="..." >
                 </div>
                 <div class="carousel-item">
-                  <img data-src="~assets/images/samples/architecture1.jpg" class="d-block w-100" alt="..." v-lazy-load>
+                  <img src="~assets/images/samples/architecture1.jpg" class="d-block w-100" alt="..." >
                 </div>
               </div>
             </div>
@@ -52,14 +52,14 @@
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img data-src="~assets/images/samples/1.png" class="d-block w-100" alt="..." v-lazy-load>
+                  <img src="~assets/images/samples/1.png" class="d-block w-100" alt="..." >
                   <div class="carousel-caption d-none d-md-block">
                     <h5>First slide label</h5>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img data-src="~assets/images/samples/2.png" class="d-block w-100" alt="..." v-lazy-load>
+                  <img src="~assets/images/samples/2.png" class="d-block w-100" alt="..." >
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Second slide label</h5>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -89,10 +89,10 @@
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img data-src="~assets/images/samples/banana.jpg" class="d-block w-100" alt="..." v-lazy-load>
+                  <img src="~assets/images/samples/banana.jpg" class="d-block w-100" alt="..." >
                 </div>
                 <div class="carousel-item">
-                  <img data-src="~assets/images/samples/bg-mountain.jpg" class="d-block w-100" alt="..." v-lazy-load>
+                  <img src="~assets/images/samples/bg-mountain.jpg" class="d-block w-100" alt="..." >
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
@@ -121,21 +121,21 @@
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img data-src="~assets/images/samples/1.png" class="d-block w-100" alt="..." v-lazy-load>
+                  <img src="~assets/images/samples/1.png" class="d-block w-100" alt="..." >
                   <div class="carousel-caption d-none d-md-block">
                     <h5>First slide label</h5>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img data-src="~assets/images/samples/2.png" class="d-block w-100" alt="..." v-lazy-load>
+                  <img src="~assets/images/samples/2.png" class="d-block w-100" alt="..." >
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Second slide label</h5>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img data-src="~assets/images/samples/3.png" class="d-block w-100" alt="..." v-lazy-load>
+                  <img src="~assets/images/samples/3.png" class="d-block w-100" alt="..." >
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Third slide label</h5>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>

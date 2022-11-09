@@ -1,14 +1,15 @@
+@use 'sass:map';
 
 .btn {
     i,svg {
-        width: 16px;
-        height: 16px;
+        width: 1rem;
+        height: 1rem;
     } 
     &.icon {
         padding: .4rem .6rem;
         svg {
-            width: 16px;
-            height: 16px;
+            width: 1rem;
+            height: 1rem;
         }
         &.icon-left {
             svg {
@@ -37,9 +38,9 @@
         }
     }
     
-    @each $key, $value in $theme-colors {
+    @each $key, $value in $btn-colors {
         &.btn-#{$key} {
-            color: #fff;
+            color: map.get($btn-colors, "key", "text-color");
         }
     }
 }

@@ -1,24 +1,15 @@
+<script lang="ts" setup>
+import LayoutHeader from '~/components/Layouts/LayoutHeader.vue';
+import LayoutFooter from '~/components/Layouts/LayoutFooter.vue';
+import LayoutSidebar from '~/components/Layouts/Sidebar/LayoutSidebar.vue';
+</script>
 <template>
   <div id="app">
-      <div id="sidebar" class="active">
-          <Sidebar></Sidebar>
-      </div>
+    <LayoutSidebar></LayoutSidebar>
       <div id="main">
-          <Header></Header>
-          <Nuxt/>
-          <Footer></Footer>
+          <LayoutHeader></LayoutHeader>
+          <slot/>
+          <LayoutFooter></LayoutFooter>
       </div>
   </div>
 </template>
-<script>
-import Header from '../components/Layouts/Header.vue'
-import Sidebar from '../components/Layouts/Sidebar.vue'
-import Footer from '../components/Layouts/Footer.vue'
-export default {
-  components:{
-    Header:Header,
-    Sidebar:Sidebar,
-    Footer:Footer,
-  }
-}
-</script>

@@ -1,3 +1,8 @@
+<script lang="ts" setup>
+definePageMeta({
+    layout: '1-column'
+})
+</script>
 <template>
 <div class="container">
     <div class="card mt-5">
@@ -12,9 +17,3 @@
     </div>
 </div>
 </template>
-
-<script>
-export default {
-    layout: '1-column'
-}
-</script>

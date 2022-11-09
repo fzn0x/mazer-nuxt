@@ -1,3 +1,189 @@
+<script setup lang="ts">
+const optionsVisitorsProfile = {
+  series: [70, 30],
+  labels: ['Male', 'Female'],
+  colors: ['#435ebe','#55c6e8'],
+  chart: {
+    type: 'donut'
+  },
+  legend: {
+    position: 'bottom'
+  },
+  plotOptions: {
+    pie: {
+      donut: {
+        size: '30%'
+      }
+    }
+  }
+}
+
+const optionsProfileVisit = {
+  annotations: {
+    position: 'back'
+  },
+  dataLabels: {
+    enabled:false
+  },
+  chart: {
+    type: 'bar'
+  },
+  fill: {
+    opacity:1
+  },
+  plotOptions: {
+  },
+  series: [{
+    name: 'sales',
+    data: [9,20,30,20,10,20,30,20,10,20,30,20]
+  }],
+  colors: '#435ebe',
+  xaxis: {
+    categories: ["Jan","Feb","Mar","Apr","May","Jun","Jul", "Aug","Sep","Oct","Nov","Dec"],
+  },
+}
+
+const optionsEurope = {
+  series: [{
+    name: 'series1',
+    data: [310, 800, 600, 430, 540, 340, 605, 805,430, 540, 340, 605]
+  }],
+  chart: {
+    type: 'area',
+    toolbar: {
+      show:false,
+    },
+  },
+  stroke: {
+    width: 2,
+  },
+  grid: {
+    show:false,
+  },
+  dataLabels: {
+    enabled: false
+  },
+  xaxis: {
+    type: 'datetime',
+    categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z","2018-09-19T07:30:00.000Z","2018-09-19T08:30:00.000Z","2018-09-19T09:30:00.000Z","2018-09-19T10:30:00.000Z","2018-09-19T11:30:00.000Z"],
+    axisBorder: {
+      show:false
+    },
+    axisTicks: {
+      show:false
+    },
+    labels: {
+      show:false,
+    }
+  },
+  show:false,
+  yaxis: {
+    labels: {
+      show:false,
+    },
+  },
+  tooltip: {
+    x: {
+      format: 'dd/MM/yy HH:mm'
+    },
+  },
+  colors: ['#5350e9'],
+}
+
+const optionsAmerica = {
+  series: [{
+    name: 'series1',
+    data: [310, 800, 600, 430, 540, 340, 605, 805,430, 540, 340, 605]
+  }],
+  chart: {
+    type: 'area',
+    toolbar: {
+      show:false,
+    },
+  },
+  stroke: {
+    width: 2,
+  },
+  grid: {
+    show:false,
+  },
+  dataLabels: {
+    enabled: false
+  },
+  xaxis: {
+    type: 'datetime',
+    categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z","2018-09-19T07:30:00.000Z","2018-09-19T08:30:00.000Z","2018-09-19T09:30:00.000Z","2018-09-19T10:30:00.000Z","2018-09-19T11:30:00.000Z"],
+    axisBorder: {
+      show:false
+    },
+    axisTicks: {
+      show:false
+    },
+    labels: {
+      show:false,
+    }
+  },
+  show:false,
+  yaxis: {
+    labels: {
+      show:false,
+    },
+  },
+  tooltip: {
+    x: {
+      format: 'dd/MM/yy HH:mm'
+    },
+  },
+  colors: ['#008b75'],
+}
+
+const optionsIndonesia = {
+  series: [{
+    name: 'series1',
+    data: [310, 800, 600, 430, 540, 340, 605, 805,430, 540, 340, 605]
+  }],
+  chart: {
+    type: 'area',
+    toolbar: {
+      show:false,
+    },
+  },
+  stroke: {
+    width: 2,
+  },
+  grid: {
+    show:false,
+  },
+  dataLabels: {
+    enabled: false
+  },
+  xaxis: {
+    type: 'datetime',
+    categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z","2018-09-19T07:30:00.000Z","2018-09-19T08:30:00.000Z","2018-09-19T09:30:00.000Z","2018-09-19T10:30:00.000Z","2018-09-19T11:30:00.000Z"],
+    axisBorder: {
+      show:false
+    },
+    axisTicks: {
+      show:false
+    },
+    labels: {
+      show:false,
+    }
+  },
+  show:false,
+  yaxis: {
+    labels: {
+      show:false,
+    },
+  },
+  tooltip: {
+    x: {
+      format: 'dd/MM/yy HH:mm'
+    },
+  },
+  colors: ['#dc3545'],
+}
+</script>
 <template>
   <div>
     <div class="page-heading">
@@ -84,11 +270,11 @@
                             </div>
                             <div class="card-body">
                               <client-only>
-                                <VueApexCharts
+                                <apexchart
                                   height="300"
                                   :options="optionsProfileVisit"
                                   :series="optionsProfileVisit.series"
-                                ></VueApexCharts>
+                                ></apexchart>
                               </client-only>
                             </div>
                         </div>
@@ -104,11 +290,7 @@
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="d-flex align-items-center">
-                                            <svg class="bi text-primary" width="32" height="32" fill="blue"
-                                                style="width:10px">
-                                                <use
-                                                    xlink:href="~assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
-                                            </svg>
+                                            <i class="bi bi-circle-fill text-primary fs-8"></i>
                                             <h5 class="mb-0 ms-3">Europe</h5>
                                         </div>
                                     </div>
@@ -117,22 +299,18 @@
                                     </div>
                                     <div class="col-12">
                                       <client-only>
-                                        <VueApexCharts
+                                        <apexchart
                                           height="80"
                                           :options="optionsEurope"
                                           :series="optionsEurope.series"
-                                        ></VueApexCharts>
+                                        ></apexchart>
                                       </client-only>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="d-flex align-items-center">
-                                            <svg class="bi text-success" width="32" height="32" fill="blue"
-                                                style="width:10px">
-                                                <use
-                                                    xlink:href="~assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
-                                            </svg>
+                                            <i class="bi bi-circle-fill text-primary fs-8"></i>
                                             <h5 class="mb-0 ms-3">America</h5>
                                         </div>
                                     </div>
@@ -141,22 +319,18 @@
                                     </div>
                                     <div class="col-12">
                                       <client-only>
-                                        <VueApexCharts
+                                        <apexchart
                                           height="80"
                                           :options="optionsAmerica"
                                           :series="optionsAmerica.series"
-                                        ></VueApexCharts>
+                                        ></apexchart>
                                       </client-only>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="d-flex align-items-center">
-                                            <svg class="bi text-danger" width="32" height="32" fill="blue"
-                                                style="width:10px">
-                                                <use
-                                                    xlink:href="~assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
-                                            </svg>
+                                            <i class="bi bi-circle-fill text-primary fs-8"></i>
                                             <h5 class="mb-0 ms-3">Indonesia</h5>
                                         </div>
                                     </div>
@@ -165,11 +339,11 @@
                                     </div>
                                     <div class="col-12">
                                       <client-only>
-                                        <VueApexCharts
+                                        <apexchart
                                           height="80"
                                           :options="optionsIndonesia"
                                           :series="optionsIndonesia.series"
-                                        ></VueApexCharts>
+                                        ></apexchart>
                                       </client-only>
                                     </div>
                                 </div>
@@ -195,7 +369,7 @@
                                                 <td class="col-3">
                                                     <div class="d-flex align-items-center">
                                                         <div class="avatar avatar-md">
-                                                            <img data-src="~assets/images/faces/5.jpg" v-lazy-load alt="...">
+                                                            <img src="~assets/images/faces/5.jpg"  alt="...">
                                                         </div>
                                                         <p class="font-bold ms-3 mb-0">Si Cantik</p>
                                                     </div>
@@ -208,7 +382,7 @@
                                                 <td class="col-3">
                                                     <div class="d-flex align-items-center">
                                                         <div class="avatar avatar-md">
-                                                            <img data-src="~assets/images/faces/2.jpg" v-lazy-load alt="...">
+                                                            <img src="~assets/images/faces/2.jpg"  alt="...">
                                                         </div>
                                                         <p class="font-bold ms-3 mb-0">Si Ganteng</p>
                                                     </div>
@@ -231,7 +405,7 @@
                     <div class="card-body py-4 px-5">
                         <div class="d-flex align-items-center">
                             <div class="avatar avatar-xl">
-                                <img data-src="~assets/images/faces/1.jpg" v-lazy-load alt="Face 1">
+                                <img src="~assets/images/faces/1.jpg"  alt="Face 1">
                             </div>
                             <div class="ms-3 name">
                                 <h5 class="font-bold">John Duck</h5>
@@ -247,7 +421,7 @@
                     <div class="card-content pb-4">
                         <div class="recent-message d-flex px-4 py-3">
                             <div class="avatar avatar-lg">
-                                <img data-src="~assets/images/faces/4.jpg" v-lazy-load alt="Face 2">
+                                <img src="~assets/images/faces/4.jpg"  alt="Face 2">
                             </div>
                             <div class="name ms-4">
                                 <h5 class="mb-1">Hank Schrader</h5>
@@ -256,7 +430,7 @@
                         </div>
                         <div class="recent-message d-flex px-4 py-3">
                             <div class="avatar avatar-lg">
-                                <img data-src="~assets/images/faces/5.jpg" v-lazy-load alt="Face 3">
+                                <img src="~assets/images/faces/5.jpg"  alt="Face 3">
                             </div>
                             <div class="name ms-4">
                                 <h5 class="mb-1">Dean Winchester</h5>
@@ -265,7 +439,7 @@
                         </div>
                         <div class="recent-message d-flex px-4 py-3">
                             <div class="avatar avatar-lg">
-                                <img data-src="~assets/images/faces/1.jpg" v-lazy-load alt="Face 4">
+                                <img src="~assets/images/faces/1.jpg"  alt="Face 4">
                             </div>
                             <div class="name ms-4">
                                 <h5 class="mb-1">John Dodol</h5>
@@ -284,11 +458,11 @@
                     </div>
                     <div class="card-body">
                       <client-only>
-                        <VueApexCharts
+                        <apexchart
                           height="350"
                           :options="optionsVisitorsProfile"
                           :series="optionsVisitorsProfile.series"
-                        ></VueApexCharts>
+                        ></apexchart>
                       </client-only>
                     </div>
                 </div>
@@ -298,195 +472,3 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      optionsVisitorsProfile: {
-        series: [70, 30],
-        labels: ['Male', 'Female'],
-        colors: ['#435ebe','#55c6e8'],
-        chart: {
-          type: 'donut'
-        },
-        legend: {
-          position: 'bottom'
-        },
-        plotOptions: {
-          pie: {
-            donut: {
-              size: '30%'
-            }
-          }
-        }
-      },
-
-      optionsProfileVisit: {
-        annotations: {
-          position: 'back'
-        },
-        dataLabels: {
-          enabled:false
-        },
-        chart: {
-          type: 'bar'
-        },
-        fill: {
-          opacity:1
-        },
-        plotOptions: {
-        },
-        series: [{
-          name: 'sales',
-          data: [9,20,30,20,10,20,30,20,10,20,30,20]
-        }],
-        colors: '#435ebe',
-        xaxis: {
-          categories: ["Jan","Feb","Mar","Apr","May","Jun","Jul", "Aug","Sep","Oct","Nov","Dec"],
-        },
-      },
-
-      optionsEurope: {
-        series: [{
-          name: 'series1',
-          data: [310, 800, 600, 430, 540, 340, 605, 805,430, 540, 340, 605]
-        }],
-        chart: {
-          type: 'area',
-          toolbar: {
-            show:false,
-          },
-        },
-        stroke: {
-          width: 2,
-        },
-        grid: {
-          show:false,
-        },
-        dataLabels: {
-          enabled: false
-        },
-        xaxis: {
-          type: 'datetime',
-          categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z","2018-09-19T07:30:00.000Z","2018-09-19T08:30:00.000Z","2018-09-19T09:30:00.000Z","2018-09-19T10:30:00.000Z","2018-09-19T11:30:00.000Z"],
-          axisBorder: {
-            show:false
-          },
-          axisTicks: {
-            show:false
-          },
-          labels: {
-            show:false,
-          }
-        },
-        show:false,
-        yaxis: {
-          labels: {
-            show:false,
-          },
-        },
-        tooltip: {
-          x: {
-            format: 'dd/MM/yy HH:mm'
-          },
-        },
-        colors: ['#5350e9'],
-      },
-
-      optionsAmerica: {
-        series: [{
-          name: 'series1',
-          data: [310, 800, 600, 430, 540, 340, 605, 805,430, 540, 340, 605]
-        }],
-        chart: {
-          type: 'area',
-          toolbar: {
-            show:false,
-          },
-        },
-        stroke: {
-          width: 2,
-        },
-        grid: {
-          show:false,
-        },
-        dataLabels: {
-          enabled: false
-        },
-        xaxis: {
-          type: 'datetime',
-          categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z","2018-09-19T07:30:00.000Z","2018-09-19T08:30:00.000Z","2018-09-19T09:30:00.000Z","2018-09-19T10:30:00.000Z","2018-09-19T11:30:00.000Z"],
-          axisBorder: {
-            show:false
-          },
-          axisTicks: {
-            show:false
-          },
-          labels: {
-            show:false,
-          }
-        },
-        show:false,
-        yaxis: {
-          labels: {
-            show:false,
-          },
-        },
-        tooltip: {
-          x: {
-            format: 'dd/MM/yy HH:mm'
-          },
-        },
-        colors: ['#008b75'],
-      },
-
-      optionsIndonesia: {
-        series: [{
-          name: 'series1',
-          data: [310, 800, 600, 430, 540, 340, 605, 805,430, 540, 340, 605]
-        }],
-        chart: {
-          type: 'area',
-          toolbar: {
-            show:false,
-          },
-        },
-        stroke: {
-          width: 2,
-        },
-        grid: {
-          show:false,
-        },
-        dataLabels: {
-          enabled: false
-        },
-        xaxis: {
-          type: 'datetime',
-          categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z","2018-09-19T07:30:00.000Z","2018-09-19T08:30:00.000Z","2018-09-19T09:30:00.000Z","2018-09-19T10:30:00.000Z","2018-09-19T11:30:00.000Z"],
-          axisBorder: {
-            show:false
-          },
-          axisTicks: {
-            show:false
-          },
-          labels: {
-            show:false,
-          }
-        },
-        show:false,
-        yaxis: {
-          labels: {
-            show:false,
-          },
-        },
-        tooltip: {
-          x: {
-            format: 'dd/MM/yy HH:mm'
-          },
-        },
-        colors: ['#dc3545'],
-      }
-    }
-  }
-}
-</script>
