@@ -4,14 +4,14 @@ export default defineNuxtConfig({
     "assets/scss/iconly.scss",
   ],
   modules: [
-    '@pinia/nuxt'
+    '@pinia/nuxt',
   ],
   buildModules: [
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
   ],
   googleFonts: {
     families: {
-      'Nunito': true
-    }
-  }
+      'Nunito': true,
+    },
+  },
 })

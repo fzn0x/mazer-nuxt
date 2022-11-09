@@ -1,6 +1,6 @@
 {
   "name": "mazer-nuxt",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",

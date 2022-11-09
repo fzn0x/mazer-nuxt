@@ -44,7 +44,8 @@ After clone the repository and navigate to the folder, you can use few commands 
 $ corepack enable
 
 # install dependencies
-$ pnpm install
+# please use the --shamefully-hoist parameter 
+$ pnpm install --shamefully-hoist 
 
 # serve with hot reload at localhost:3000
 $ pnpm run dev

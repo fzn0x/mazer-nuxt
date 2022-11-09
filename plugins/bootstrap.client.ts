@@ -1,4 +1,3 @@
-import  "bootstrap"
+import "bootstrap";
 
-export default defineNuxtPlugin((nuxtApp) => {
-})
+export default defineNuxtPlugin((_nuxtApp) => {})

@@ -69,13 +69,14 @@
 </template>
 
 <script>
+import bootstrap from 'bootstrap/dist/js/bootstrap.bundle'
+
 export default {
     mounted() {
-        console.log(window)
         let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
         let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl)
-        })        
+        })
     }
 }
 </script>
