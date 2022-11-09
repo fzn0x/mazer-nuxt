@@ -68,15 +68,13 @@
 </div>
 </template>
 
-<script>
-import bootstrap from 'bootstrap/dist/js/bootstrap.bundle';
+<script lang="ts" setup>
+const { $bootstrap } = useNuxtApp();
 
-export default {
-    mounted() {
-        let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-        tooltipTriggerList.map(function (tooltipTriggerEl) {
-            return new bootstrap.Tooltip(tooltipTriggerEl);
-        });
-    }
-}
+onMounted(() => {
+  let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+  tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new $bootstrap.Tooltip(tooltipTriggerEl);
+  });
+});
 </script>

@@ -1,3 +1,9 @@
-import "bootstrap";
+import { Tooltip } from "bootstrap";
 
-export default defineNuxtPlugin((_nuxtApp) => {})
+export default defineNuxtPlugin(() => ({
+  provide: {
+    bootstrap: {
+      Tooltip,
+    },
+  },
+}));
