@@ -1,6 +1,3 @@
-<script lang="ts" setup>
-
-</script>
 <template>
 <div class="page-heading">
     <div class="page-title">

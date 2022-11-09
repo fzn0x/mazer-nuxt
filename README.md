@@ -27,6 +27,19 @@
 
 You may need to use Node.js v16.9.0 or above to continue with Mazer Nuxt installation guide.
 
+## Warnings
+
+- How to fix Deprecation Warning: $weight: Passing a number without unit % (100) is deprecated. ?
+
+This is issue caused by latest bootstrap (5.2.2), please wait for bootstrap 5.3.0
+
+- How to fix peer dependencies issues warning?
+
+- remove node_modules
+- remove pnpm-lock.yaml
+- create .npmrc with `auto-install-peers` enabled (this step is already provided by Mazer Nuxt)
+- pnpm install --shamefully-hoist 
+
 ### Build Setup
 
 ```bash
