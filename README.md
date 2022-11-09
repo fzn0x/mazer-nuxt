@@ -10,6 +10,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/bl0cknumber/mazer-nuxt.svg)
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg)
 [![License](https://img.shields.io/github/license/bl0cknumber/mazer-nuxt.svg)](LICENSE)
+[![Known Vulnerabilities](https://snyk.io/test/github/fzn0x/mazer-nuxt/badge.svg?targetFile=package.json)](https://snyk.io/test/github/fzn0x/mazer-nuxt?targetFile=package.json)
 
 </div>
 
@@ -22,10 +23,6 @@
 - [Installation Guide](#installation-guide)
 - [Contributing](#contributing)
 - [License](#license)
-
-## Installation Guide
-
-You may need to use Node.js v16.9.0 or above to continue with Mazer Nuxt installation guide.
 
 ## Warnings
 
@@ -40,7 +37,10 @@ This is issue caused by latest bootstrap (5.2.2), please wait for bootstrap 5.3.
 - create .npmrc with `auto-install-peers` enabled (this step is already provided by Mazer Nuxt)
 - pnpm install --shamefully-hoist 
 
-### Build Setup
+## Installation Guide
+
+You may need to use Node.js v16.9.0 or above to continue with Mazer Nuxt installation guide.
+## Build Setup
 
 ```bash
 # clone the repository
