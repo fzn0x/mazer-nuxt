@@ -19,6 +19,7 @@
   "devDependencies": {
     "@nuxtjs/google-fonts": "^3.0.0-1",
     "@pinia/nuxt": "^0.4.3",
+    "@types/bootstrap": "^5.2.5",
     "nuxt": "3.0.0-rc.13",
     "perfect-scrollbar": "^1.5.5",
     "pinia": "^2.0.23",
