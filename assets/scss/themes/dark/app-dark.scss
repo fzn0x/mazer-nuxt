@@ -1,4 +1,4 @@
-// // Import mazer Variables
+// Import mazer Variables
 
 @import "./../../variables";
 @import "./variables-dark";
@@ -7,7 +7,7 @@
 @import "./root";
 
 body.theme-dark {
-//     // Bootstrap
+    // Bootstrap
     @import "node_modules/bootstrap/scss/maps";
     @import "node_modules/bootstrap/scss/utilities";
     @import "node_modules/bootstrap/scss/reboot";
@@ -43,10 +43,10 @@ body.theme-dark {
 
 
 
-//     // Mazer CSS
+    // Mazer CSS
     @import "./../../mazer";
 
-//     // Additional dark-mode CSS
+    // Additional dark-mode CSS
     @import "./mazer-dark";
     @import "node_modules/bootstrap/scss/utilities";
 }
