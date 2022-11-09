@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   css: [
     "assets/scss/app.scss",
+    "assets/scss/themes/dark/app-dark.scss",
     "assets/scss/iconly.scss",
   ],
   plugins: [

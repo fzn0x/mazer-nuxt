@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import PerfectScrollbar from "perfect-scrollbar"
 import SidebarItem from "./SidebarItem.vue";
+import Dark from "./Dark.vue";
 import {useStore} from '~/store';
 import {ref, watch, computed, onMounted} from "vue";
 
@@ -82,6 +83,9 @@ watch(() => store.isSidebarActive, (isSidebarActive) => {
           <div class="logo">
             <nuxt-link to="/"><img src="~/assets/images/logo/logo.png" alt="Logo"></nuxt-link>
           </div>
+          <client-only>
+            <Dark />
+          </client-only>
           <div class="toggler">
             <a href="#" class="sidebar-hide d-xl-none d-block" @click="store.toggleSidebar">
               <i class="bi bi-x bi-middle"></i>
