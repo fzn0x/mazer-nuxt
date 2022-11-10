@@ -24,7 +24,7 @@
     "nuxt": "3.0.0-rc.13",
     "perfect-scrollbar": "^1.5.5",
     "pinia": "^2.0.23",
-    "sass": "1.56.0",
+    "sass": "1.56.1",
     "sass-loader": "^13.1.0"
   }
 }
