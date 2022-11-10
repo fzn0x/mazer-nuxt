@@ -4,7 +4,7 @@ specifiers:
   '@nuxtjs/google-fonts': ^3.0.0-1
   '@pinia/nuxt': ^0.4.3
   '@popperjs/core': ^2.11.2
-  '@types/bootstrap': ^5.2.5
+  '@types/bootstrap': ^5.2.6
   apexcharts: ^3.33.0
   bootstrap: 5.2.2
   bootstrap-icons: ^1.9.0
@@ -29,7 +29,7 @@ dependencies:
 devDependencies:
   '@nuxtjs/google-fonts': 3.0.0-1_rollup@2.79.1
   '@pinia/nuxt': 0.4.3_rollup@2.79.1+vue@3.2.42
-  '@types/bootstrap': 5.2.5
+  '@types/bootstrap': 5.2.6
   nuxt: 3.0.0-rc.13_rollup@2.79.1+sass@1.56.1
   perfect-scrollbar: 1.5.5
   pinia: 2.0.23_vue@3.2.42
@@ -708,8 +708,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /@types/bootstrap/5.2.5:
-    resolution: {integrity: sha512-VnalUJ3E/oaV3DYrauEc/sSPpaEPxTV09twSEzY4KFRvyuGlrZUSqG95XZ6ReAi0YMZIs7rXxdngDK2X1YONQA==}
+  /@types/bootstrap/5.2.6:
+    resolution: {integrity: sha512-BlAc3YATdasbHoxMoBWODrSF6qwQO/E9X8wVxCCSa6rWjnaZfpkr2N6pUMCY6jj2+wf0muUtLySbvU9etX6YqA==}
     dependencies:
       '@popperjs/core': 2.11.6
     dev: true
