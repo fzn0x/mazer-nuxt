@@ -3,7 +3,7 @@
 const THEME_KEY = "theme"
 const THEME_REGEX = /\btheme-[a-z0-9]+\b/g
 
-const toggler = document.getElementById("toggle-dark") as HTMLInputElement
+const darkToggler = ref()
 /**
  * Toggle Dark Mode
  */
@@ -23,7 +23,7 @@ const toggleDarkTheme = () => {
 const setTheme = (theme: string, dontPersist: boolean = false) => {
   document.body.className = document.body.className.replace(THEME_REGEX, "")
   document.body.classList.add(theme)
-  if (toggler) toggler.checked = theme == "theme-dark"
+  if (darkToggler) darkToggler.value.checked = theme == "theme-dark"
 
   if (!dontPersist) {
     localStorage.setItem(THEME_KEY, theme)
@@ -78,7 +78,7 @@ onMounted(() => {
       </g>
     </svg>
     <div class="form-check form-switch fs-6">
-      <input class="form-check-input me-0" type="checkbox" id="toggle-dark" style="cursor: pointer" @click="toggleDarkTheme"/>
+      <input class="form-check-input me-0" type="checkbox" id="toggle-dark" ref="darkToggler" style="cursor: pointer" @click="toggleDarkTheme"/>
       <label class="form-check-label"></label>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
