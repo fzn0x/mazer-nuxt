@@ -12,7 +12,7 @@ specifiers:
   nuxt: 3.0.0-rc.13
   nuxt-progress: ^0.1.6
   perfect-scrollbar: ^1.5.5
-  pinia: ^2.0.23
+  pinia: ^2.0.24
   sass: 1.56.1
   sass-loader: ^13.2.0
   vue3-apexcharts: ^1.4.1
@@ -32,7 +32,7 @@ devDependencies:
   '@types/bootstrap': 5.2.6
   nuxt: 3.0.0-rc.13_rollup@2.79.1+sass@1.56.1
   perfect-scrollbar: 1.5.5
-  pinia: 2.0.23_vue@3.2.42
+  pinia: 2.0.24_vue@3.2.42
   sass: 1.56.1
   sass-loader: 13.2.0_sass@1.56.1+webpack@5.74.0
 
@@ -574,7 +574,7 @@ packages:
     resolution: {integrity: sha512-pDyThvbOi9ztSPI9RDJG857Knb/mmUdDrDiLXbtLVQ3/l647jKncdP4TiRLnMlObENJjcFPEwHT7OVPq4VhQMw==}
     dependencies:
       '@nuxt/kit': 3.0.0-rc.13_rollup@2.79.1
-      pinia: 2.0.23_vue@3.2.42
+      pinia: 2.0.24_vue@3.2.42
     transitivePeerDependencies:
       - '@vue/composition-api'
       - rollup
@@ -3491,8 +3491,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /pinia/2.0.23_vue@3.2.42:
-    resolution: {integrity: sha512-N15hFf4o5STrxpNrib1IEb1GOArvPYf1zPvQVRGOO1G1d74Ak0J0lVyalX/SmrzdT4Q0nlEFjbURsmBmIGUR5Q==}
+  /pinia/2.0.24_vue@3.2.42:
+    resolution: {integrity: sha512-DDLd4Iphyc+6PYYYbx7jkb6WP9gecgu9bz9huyB5rb7CdJI3DhzYiZI+/Ih8MLewRrP9DSpslF/BgSNrJtZU7A==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'

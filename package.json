@@ -23,7 +23,7 @@
     "@types/bootstrap": "^5.2.6",
     "nuxt": "3.0.0-rc.13",
     "perfect-scrollbar": "^1.5.5",
-    "pinia": "^2.0.23",
+    "pinia": "^2.0.24",
     "sass": "1.56.1",
     "sass-loader": "^13.2.0"
   }
