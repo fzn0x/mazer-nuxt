@@ -55,7 +55,7 @@ After clone the repository and navigate to the folder, you can use few commands 
 ```bash
 # enable corepack
 $ corepack enable
-# use recommended version of NPM (latest)
+# use recommended version of PNPM (latest)
 $ corepack prepare pnpm@7.16.1 --activate
 
 # install dependencies
