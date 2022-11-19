@@ -9,18 +9,7 @@ export default defineNuxtConfig({
   ],
   modules: [
     '@pinia/nuxt',
-    'nuxt-progress',
   ],
-  progress: {
-    // Default: 2px
-    height: '5px',
-    // Default: #29D
-    color: '#29D',
-    // NProgress options: https://www.npmjs.com/package/nprogress#configuration
-    options: {
-      showSpinner: true
-    }
-  },
   buildModules: [
     '@nuxtjs/google-fonts',
   ],

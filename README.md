@@ -35,7 +35,7 @@ This is issue caused by latest bootstrap (5.2.2), please wait for bootstrap 5.3.
 - remove node_modules
 - remove pnpm-lock.yaml
 - create .npmrc with `auto-install-peers` enabled (this step is already provided by Mazer Nuxt)
-- pnpm install --shamefully-hoist 
+- pnpm install --shamefully-hoist
 
 ## Installation Guide
 
@@ -55,10 +55,12 @@ After clone the repository and navigate to the folder, you can use few commands 
 ```bash
 # enable corepack
 $ corepack enable
+# use recommended version of NPM (latest)
+$ corepack prepare pnpm@7.16.1 --activate
 
 # install dependencies
-# please use the --shamefully-hoist parameter 
-$ pnpm install --shamefully-hoist 
+# please use the --shamefully-hoist parameter
+$ pnpm install --shamefully-hoist
 
 # serve with hot reload at localhost:3000
 $ pnpm run dev
