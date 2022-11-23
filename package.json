@@ -11,7 +11,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.2",
     "apexcharts": "^3.33.0",
-    "bootstrap": "5.2.2",
+    "bootstrap": "5.2.3",
     "bootstrap-icons": "^1.10.2",
     "feather-icons": "^4.28.0",
     "vue3-apexcharts": "^1.4.1"
