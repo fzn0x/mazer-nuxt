@@ -9,20 +9,20 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@popperjs/core": "^2.11.2",
-    "apexcharts": "^3.33.0",
+    "@popperjs/core": "^2.11.6",
+    "apexcharts": "^3.36.3",
     "bootstrap": "5.2.3",
     "bootstrap-icons": "^1.10.2",
-    "feather-icons": "^4.28.0",
+    "feather-icons": "^4.29.0",
     "vue3-apexcharts": "^1.4.1"
   },
   "devDependencies": {
     "@nuxtjs/google-fonts": "^3.0.0-1",
-    "@pinia/nuxt": "^0.4.4",
+    "@pinia/nuxt": "^0.4.6",
     "@types/bootstrap": "^5.2.6",
     "nuxt": "3.0.0",
     "perfect-scrollbar": "^1.5.5",
-    "pinia": "^2.0.24",
+    "pinia": "^2.0.27",
     "sass": "1.56.1",
     "sass-loader": "^13.2.0"
   }
