@@ -1,6 +1,6 @@
 <div align="center">
 
-# Mazer Nuxt
+# Mazer Nuxt 🚀
 
 </div>
 
@@ -15,7 +15,7 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/zuramai/mazer">Mazer</a> is an Admin Dashboard Template that can help you develop faster. Made with Bootstrap 5. No jQuery dependency.
+  <a href="https://github.com/zuramai/mazer">Mazer</a> <b>Nuxt</b> is an Admin Dashboard Template that can help you develop faster. Made with Bootstrap 5. No jQuery dependency with Nuxt 3 + TypeScript.
 </p>
 
 ## Table of contents
@@ -23,19 +23,6 @@
 - [Installation Guide](#installation-guide)
 - [Contributing](#contributing)
 - [License](#license)
-
-## Warnings
-
-##### How to fix Deprecation Warning: $weight: Passing a number without unit % (100) is deprecated. ?
-
-This is issue caused by latest bootstrap (5.2.2), please wait for bootstrap 5.3.0
-
-##### How to fix peer dependencies issues warning?
-
-- remove node_modules
-- remove pnpm-lock.yaml
-- create .npmrc with `auto-install-peers` enabled (this step is already provided by Mazer Nuxt)
-- pnpm install --shamefully-hoist
 
 ## Installation Guide
 
@@ -56,7 +43,7 @@ After clone the repository and navigate to the folder, you can use few commands 
 # enable corepack
 $ corepack enable
 # use recommended version of PNPM (latest)
-$ corepack prepare pnpm@7.16.1 --activate
+$ corepack prepare pnpm@7.18.1 --activate
 
 # install dependencies
 # please use the --shamefully-hoist parameter
