@@ -10,15 +10,13 @@ export default defineNuxtConfig({
   ],
   modules: [
     '@pinia/nuxt',
+    '@nuxtjs/google-fonts',
     '@nuxtjs/color-mode'
   ],
   colorMode: {
     classPrefix: 'theme-',
     classSuffix: ''
   },
-  buildModules: [
-    '@nuxtjs/google-fonts',
-  ],
   googleFonts: {
     families: {
       'Nunito': true,

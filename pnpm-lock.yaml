@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@nuxtjs/color-mode': ^3.2.0
-  '@nuxtjs/google-fonts': ^3.0.0-1
+  '@nuxtjs/google-fonts': 3.0.0-1
   '@pinia/nuxt': ^0.4.6
   '@popperjs/core': ^2.11.6
   '@types/bootstrap': ^5.2.6
