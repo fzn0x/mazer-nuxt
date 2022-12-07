@@ -84,7 +84,7 @@ watch(() => store.isSidebarActive, (isSidebarActive) => {
             <nuxt-link to="/"><img src="~/assets/images/logo/logo.png" alt="Logo"></nuxt-link>
           </div>
           <Dark />
-          <div class="toggler">
+          <div class="sidebar-toggler x">
             <a href="#" class="sidebar-hide d-xl-none d-block" @click="store.toggleSidebar">
               <i class="bi bi-x bi-middle"></i>
             </a>
