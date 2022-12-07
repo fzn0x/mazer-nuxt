@@ -1,66 +1,12 @@
 <script lang="ts" setup>
-
-const THEME_KEY = "theme"
-const THEME_REGEX = /\btheme-[a-z0-9]+\b/g
-
-const darkToggler = ref()
-/**
- * Toggle Dark Mode
- */
-const toggleDarkTheme = () => {
-  setTheme(
-    document.body.classList.contains("theme-dark")
-      ? "theme-light"
-      : "theme-dark"
-  )
+import { useStore } from '~/store'
+// const { toggleDark } = useStore()
+const colorMode = useColorMode()
+const toggleDark = (e: InputEvent) => {
+  let value = (e.target as HTMLInputElement).checked
+  colorMode.preference = value ? "dark" : "light"
 }
-
-/**
- * Set theme for mazer
- * @param {"theme-dark"|"theme-light"} theme
- * @param {boolean} dontPersist
- */
-const setTheme = (theme: string, dontPersist: boolean = false) => {
-  document.body.className = document.body.className.replace(THEME_REGEX, "")
-  document.body.classList.add(theme)
-  if (darkToggler) darkToggler.value.checked = theme == "theme-dark"
-
-  if (!dontPersist) {
-    localStorage.setItem(THEME_KEY, theme)
-  }
-}
-
-/**
- * Init theme from setTheme()
- */
- const initTheme = () => {
-  //If the user manually set a theme, we'll load that
-  const storedTheme = localStorage.getItem(THEME_KEY)
-  if (storedTheme) {
-    return setTheme(storedTheme)
-  }
-
-  //Detect if the user set his preferred color scheme to dark
-  if (!window.matchMedia) {
-    return
-  }
-
-  //Media query to detect dark preference
-  const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)")
-
-  //Register change listener
-  mediaQuery.addEventListener("change", (e) =>
-    setTheme(e.matches ? "theme-dark" : "theme-light", true)
-  )
-
-  return setTheme(mediaQuery.matches ? "theme-dark" : "theme-light", true)
-}
-
-onMounted(() => {
-  initTheme()
-})
 </script>
-
 <template>
   <div class="theme-toggle d-flex gap-2 align-items-center mt-2">
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
@@ -78,7 +24,7 @@ onMounted(() => {
       </g>
     </svg>
     <div class="form-check form-switch fs-6">
-      <input class="form-check-input me-0" type="checkbox" id="toggle-dark" ref="darkToggler" style="cursor: pointer" @click="toggleDarkTheme"/>
+      <input class="form-check-input me-0" type="checkbox" id="toggle-dark" ref="darkToggler" style="cursor: pointer" @input="(e) => toggleDark(e)"/>
       <label class="form-check-label"></label>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"

@@ -4,11 +4,13 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "start": "nuxt start",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/color-mode": "^3.2.0",
     "@popperjs/core": "^2.11.6",
     "apexcharts": "^3.36.3",
     "bootstrap": "5.2.3",
