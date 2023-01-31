@@ -10,7 +10,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/bl0cknumber/mazer-nuxt.svg)
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg)
 [![License](https://img.shields.io/github/license/bl0cknumber/mazer-nuxt.svg)](LICENSE)
-[![Known Vulnerabilities](https://snyk.io/test/github/fzn0x/mazer-nuxt/badge.svg?targetFile=package.json)](https://snyk.io/test/github/fzn0x/mazer-nuxt?targetFile=package.json)
 
 </div>
 
