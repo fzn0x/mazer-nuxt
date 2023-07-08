@@ -15,59 +15,63 @@ export default [
       "submenu": [
         {
           "name": "Alert",
-          "url": "/components/alert"
+          "url": "/components/Alert"
+        },
+        {
+          "name": "Accordion",
+          "url": "/components/Accordion"
         },
         {
           "name": "Badge",
-          "url": "/components/badge"
+          "url": "/components/Badge"
         },
         {
           "name": "Breadcrumb",
-          "url": "/components/breadcrumb"
+          "url": "/components/Breadcrumb"
         },
         {
           "name": "Button",
-          "url": "/components/button"
+          "url": "/components/Button"
         },
         {
           "name": "Card",
-          "url": "/components/card"
+          "url": "/components/Card"
         },
         {
           "name": "Carousel",
-          "url": "/components/carousel"
+          "url": "/components/Carousel"
         },
         {
           "name": "Dropdown",
-          "url": "/components/dropdown"
+          "url": "/components/Dropdown"
         },
         {
           "name": "List Group",
-          "url": "/components/list-group"
+          "url": "/components/ListGroup"
         },
         {
           "name": "Modal",
-          "url": "/components/modal"
+          "url": "/components/Modal"
         },
         {
           "name": "Navs",
-          "url": "/components/navs"
+          "url": "/components/Navs"
         },
         {
           "name": "Pagination",
-          "url": "/components/pagination"
+          "url": "/components/Pagination"
         },
         {
           "name": "Progress",
-          "url": "/components/progress"
+          "url": "/components/Progress"
         },
         {
           "name": "Spinner",
-          "url": "/components/spinner"
+          "url": "/components/Spinner"
         },
         {
           "name": "Tooltip",
-          "url": "/components/tooltip"
+          "url": "/components/Tooltip"
         }
       ]
     },
@@ -89,5 +93,5 @@ export default [
           "url": "/layouts/vertical"
         },
       ]
-    },   
+    },
 ];
