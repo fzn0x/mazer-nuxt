@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     "assets/scss/app.scss",
     "assets/scss/iconly.scss",
   ],
-  
+
   plugins: [
     { src: '~/plugins/bootstrap.client', mode: 'client' },
   ],
