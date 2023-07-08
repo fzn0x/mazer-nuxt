@@ -18,8 +18,8 @@ dependencies:
     specifier: ^5.2.3
     version: 5.2.3(@popperjs/core@2.11.8)
   bootstrap-icons:
-    specifier: ^1.10.2
-    version: 1.10.2
+    specifier: ^1.10.5
+    version: 1.10.5
   feather-icons:
     specifier: ^4.29.0
     version: 4.29.0
@@ -1799,8 +1799,8 @@ packages:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
     dev: true
 
-  /bootstrap-icons@1.10.2:
-    resolution: {integrity: sha512-PTPYadRn1AMGr+QTSxe4ZCc+Wzv9DGZxbi3lNse/dajqV31n2/wl/7NX78ZpkvFgRNmH4ogdIQPQmxAfhEV6nA==}
+  /bootstrap-icons@1.10.5:
+    resolution: {integrity: sha512-oSX26F37V7QV7NCE53PPEL45d7EGXmBgHG3pDpZvcRaKVzWMqIRL9wcqJUyEha1esFtM3NJzvmxFXDxjJYD0jQ==}
     dev: false
 
   /bootstrap@5.2.3(@popperjs/core@2.11.8):
