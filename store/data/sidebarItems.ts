@@ -14,12 +14,12 @@ export default [
       "icon": "stack",
       "submenu": [
         {
-          "name": "Alert",
-          "url": "/components/Alert"
-        },
-        {
           "name": "Accordion",
           "url": "/components/Accordion"
+        },
+        {
+          "name": "Alert",
+          "url": "/components/Alert"
         },
         {
           "name": "Badge",
