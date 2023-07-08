@@ -24,7 +24,7 @@ _It's very simple!_
 ## Contributing
 
 - Star the project :star: and [fork it](https://github.com/zuramai/mazer/fork).
-- Clone your fork `git clone https://github.com/<your username>/mazer`
+- Clone your fork `git clone https://github.com/<your username>/mazer-nuxt`
 - Create your feature branch (`git checkout -b my-new-feature`).
 - Commit your changes:
   - Components: `git commit -am 'feat(components): add <component name> component'`
