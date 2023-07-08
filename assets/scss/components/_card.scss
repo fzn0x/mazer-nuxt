@@ -7,7 +7,7 @@
         background: linear-gradient(to bottom, #25a6f1, #54b9ff);
         .card-title {
             text-transform: uppercase;
-            color: rgba(255, 255, 255, 0.651);
+            color: #fff;
             letter-spacing: .8px;
             font-weight: 400;
             font-size: 1.3rem;
@@ -33,7 +33,7 @@
     }
     .card-header {
         border: none;
-        
+
         h4 {
             font-size: $card-title-font-size;
             font-weight: bold;
@@ -63,7 +63,7 @@
             color: #fff;
         }
     }
-    
+
 
 }
 .pricing {

@@ -100,6 +100,14 @@ export default [
           "name": "Vertical with Navbar",
           "url": "/layouts/vertical"
         },
+        {
+          "name": "RTL Layout",
+          "url": "/layouts/rtl"
+        },
+        {
+          "name": "Horizontal Menu",
+          "url": "/layouts/horizontal-menu"
+        },
       ]
     },
 ];
