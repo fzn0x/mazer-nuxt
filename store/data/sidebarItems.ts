@@ -74,6 +74,10 @@ export default [
           "url": "/components/Spinner"
         },
         {
+          "name": "Toasts",
+          "url": "/components/Toasts"
+        },
+        {
           "name": "Tooltip",
           "url": "/components/Tooltip"
         }
