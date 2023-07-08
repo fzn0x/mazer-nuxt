@@ -25,7 +25,7 @@
 
 ## Installation Guide
 
-You may need to use Node.js v16.9.0 or above to continue with Mazer Nuxt installation guide.
+You may need to use Node.js v18.16.0 or above to continue with Mazer Nuxt installation guide.
 ## Build Setup
 
 ```bash
@@ -42,11 +42,10 @@ After clone the repository and navigate to the folder, you can use few commands 
 # enable corepack
 $ corepack enable
 # use recommended version of PNPM (latest)
-$ corepack prepare pnpm@7.18.1 --activate
+$ corepack prepare pnpm@8.6.6 --activate
 
 # install dependencies
-# please use the --shamefully-hoist parameter
-$ pnpm install --shamefully-hoist
+$ pnpm install
 
 # serve with hot reload at localhost:3000
 $ pnpm run dev
