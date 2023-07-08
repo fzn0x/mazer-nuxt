@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@nuxtjs/color-mode": "^3.3.0",
-    "@popperjs/core": "^2.11.6",
+    "@popperjs/core": "^2.11.8",
     "apexcharts": "^3.41.0",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.2",
