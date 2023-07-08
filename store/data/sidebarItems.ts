@@ -42,6 +42,10 @@ export default [
           "url": "/components/Carousel"
         },
         {
+          "name": "Collapse",
+          "url": "/components/Collapse"
+        },
+        {
           "name": "Dropdown",
           "url": "/components/Dropdown"
         },
