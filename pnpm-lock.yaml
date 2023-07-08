@@ -9,14 +9,14 @@ dependencies:
     specifier: ^3.3.0
     version: 3.3.0(rollup@2.79.1)
   '@popperjs/core':
-    specifier: ^2.11.6
-    version: 2.11.6
+    specifier: ^2.11.8
+    version: 2.11.8
   apexcharts:
     specifier: ^3.41.0
     version: 3.41.0
   bootstrap:
     specifier: ^5.2.3
-    version: 5.2.3(@popperjs/core@2.11.6)
+    version: 5.2.3(@popperjs/core@2.11.8)
   bootstrap-icons:
     specifier: ^1.10.2
     version: 1.10.2
@@ -657,8 +657,8 @@ packages:
       - vue
     dev: true
 
-  /@popperjs/core@2.11.6:
-    resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
+  /@popperjs/core@2.11.8:
+    resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
 
   /@rollup/plugin-alias@4.0.2(rollup@2.79.1):
     resolution: {integrity: sha512-1hv7dBOZZwo3SEupxn4UA2N0EDThqSSS+wI1St1TNTBtOZvUchyIClyHcnDcjjrReTPZ47Faedrhblv4n+T5UQ==}
@@ -793,7 +793,7 @@ packages:
   /@types/bootstrap@5.2.6:
     resolution: {integrity: sha512-BlAc3YATdasbHoxMoBWODrSF6qwQO/E9X8wVxCCSa6rWjnaZfpkr2N6pUMCY6jj2+wf0muUtLySbvU9etX6YqA==}
     dependencies:
-      '@popperjs/core': 2.11.6
+      '@popperjs/core': 2.11.8
     dev: true
 
   /@types/eslint-scope@3.7.4:
@@ -1442,12 +1442,12 @@ packages:
     resolution: {integrity: sha512-PTPYadRn1AMGr+QTSxe4ZCc+Wzv9DGZxbi3lNse/dajqV31n2/wl/7NX78ZpkvFgRNmH4ogdIQPQmxAfhEV6nA==}
     dev: false
 
-  /bootstrap@5.2.3(@popperjs/core@2.11.6):
+  /bootstrap@5.2.3(@popperjs/core@2.11.8):
     resolution: {integrity: sha512-cEKPM+fwb3cT8NzQZYEu4HilJ3anCrWqh3CHAok1p9jXqMPsPTBhU25fBckEJHJ/p+tTxTFTsFQGM+gaHpi3QQ==}
     peerDependencies:
       '@popperjs/core': ^2.11.6
     dependencies:
-      '@popperjs/core': 2.11.6
+      '@popperjs/core': 2.11.8
     dev: false
 
   /brace-expansion@1.1.11:
