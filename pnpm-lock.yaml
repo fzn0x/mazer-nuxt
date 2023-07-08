@@ -12,8 +12,8 @@ dependencies:
     specifier: ^2.11.6
     version: 2.11.6
   apexcharts:
-    specifier: ^3.36.3
-    version: 3.36.3
+    specifier: ^3.41.0
+    version: 3.41.0
   bootstrap:
     specifier: ^5.2.3
     version: 5.2.3(@popperjs/core@2.11.6)
@@ -25,7 +25,7 @@ dependencies:
     version: 4.29.0
   vue3-apexcharts:
     specifier: ^1.4.1
-    version: 1.4.1(apexcharts@3.36.3)(vue@3.3.4)
+    version: 1.4.1(apexcharts@3.41.0)(vue@3.3.4)
 
 devDependencies:
   '@nuxtjs/google-fonts':
@@ -1320,8 +1320,8 @@ packages:
       normalize-path: 3.0.0
       picomatch: 2.3.1
 
-  /apexcharts@3.36.3:
-    resolution: {integrity: sha512-8/FXEs0ohXMff07Gv28XjhPwEJphIUdq2/wii/pcvi54Tw6z1mjrV8ydN8rlWi/ve8BAPBefJkLmRWv7UOBsLw==}
+  /apexcharts@3.41.0:
+    resolution: {integrity: sha512-FJXA7NVjxs1q+ptR3b1I+pN8K/gWuXn+qLZjFz8EHvJOokdgcuwa/HSe5aC465HW/LWnrjWLSTsOQejQbQ42hQ==}
     dependencies:
       svg.draggable.js: 2.2.2
       svg.easing.js: 2.0.0
@@ -5143,13 +5143,13 @@ packages:
       vue: 3.2.45
     dev: true
 
-  /vue3-apexcharts@1.4.1(apexcharts@3.36.3)(vue@3.3.4):
+  /vue3-apexcharts@1.4.1(apexcharts@3.41.0)(vue@3.3.4):
     resolution: {integrity: sha512-96qP8JDqB9vwU7bkG5nVU+E0UGQn7yYQVqUUCLQMYWDuQyu2vE77H/UFZ1yI+hwzlSTBKT9BqnNG8JsFegB3eg==}
     peerDependencies:
       apexcharts: '> 3.0.0'
       vue: '> 3.0.0'
     dependencies:
-      apexcharts: 3.36.3
+      apexcharts: 3.41.0
       vue: 3.3.4
     dev: false
 
