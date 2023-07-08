@@ -6,10 +6,10 @@
 
 <div align="center">
 
-[![All Contributors](https://img.shields.io/github/contributors/bl0cknumber/mazer-nuxt)](https://github.com/zuramai/mazer/graphs/contributors)
-![GitHub last commit](https://img.shields.io/github/last-commit/bl0cknumber/mazer-nuxt.svg)
+[![All Contributors](https://img.shields.io/github/contributors/fzn0x/mazer-nuxt)](https://github.com/fzn0x/mazer-nuxt/graphs/contributors)
+![GitHub last commit](https://img.shields.io/github/last-commit/fzn0x/mazer-nuxt.svg)
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg)
-[![License](https://img.shields.io/github/license/bl0cknumber/mazer-nuxt.svg)](LICENSE)
+[![License](https://img.shields.io/github/license/fzn0x/mazer-nuxt.svg)](LICENSE)
 
 </div>
 
@@ -30,7 +30,7 @@ You may need to use Node.js v16.9.0 or above to continue with Mazer Nuxt install
 
 ```bash
 # clone the repository
-$ git clone https://github.com/fauzan121002/mazer-nuxt.git
+$ git clone https://github.com/fzn0x/mazer-nuxt.git
 
 # navigate to the folder
 $ cd mazer-nuxt
