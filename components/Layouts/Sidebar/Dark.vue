@@ -1,11 +1,14 @@
 <script lang="ts" setup>
-import { useStore } from '~/store'
-// const { toggleDark } = useStore()
-const colorMode = useColorMode()
-const toggleDark = (e: InputEvent) => {
-  let value = (e.target as HTMLInputElement).checked
-  colorMode.preference = value ? "dark" : "light"
-}
+import { useStore } from '~/store';
+const store = useStore();
+
+const colorMode = useColorMode();
+
+colorMode.preference = store.isDark ? "dark" : "light";
+
+watch(() => store.isDark, (isDark) => {
+  colorMode.preference = isDark ? "dark" : "light";
+});
 </script>
 <template>
   <div class="theme-toggle d-flex gap-2 align-items-center mt-2">
@@ -24,7 +27,7 @@ const toggleDark = (e: InputEvent) => {
       </g>
     </svg>
     <div class="form-check form-switch fs-6">
-      <input class="form-check-input me-0" type="checkbox" id="toggle-dark" ref="darkToggler" style="cursor: pointer" @input="(e) => toggleDark(e)"/>
+      <input class="form-check-input me-0" type="checkbox" id="toggle-dark" ref="darkToggler" style="cursor: pointer" @click="store.toggleDark" v-model="store.isDark"/>
       <label class="form-check-label"></label>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"

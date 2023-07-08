@@ -37,6 +37,7 @@
         h4 {
             font-size: $card-title-font-size;
             font-weight: bold;
+            color: $bs-heading-color;
         }
         & ~ .card-body {
             padding-top: 0;

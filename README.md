@@ -14,7 +14,7 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/zuramai/mazer">Mazer</a> <b>Nuxt</b> is an Admin Dashboard Template that can help you develop faster. Made with Bootstrap 5. No jQuery dependency with Nuxt 3 + TypeScript.
+  <a href="https://github.com/fzn0x/mazer-nuxt">Mazer</a> <b>Nuxt</b> is an Admin Dashboard Template that can help you develop faster. Made with Bootstrap 5. No jQuery dependency with Nuxt 3 + TypeScript.
 </p>
 
 ## Table of contents

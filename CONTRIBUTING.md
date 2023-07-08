@@ -23,7 +23,7 @@ _It's very simple!_
 
 ## Contributing
 
-- Star the project :star: and [fork it](https://github.com/zuramai/mazer/fork).
+- Star the project :star: and [fork it](https://github.com/fzn0x/mazer-nuxt/fork).
 - Clone your fork `git clone https://github.com/<your username>/mazer-nuxt`
 - Create your feature branch (`git checkout -b my-new-feature`).
 - Commit your changes:

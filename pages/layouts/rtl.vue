@@ -35,14 +35,12 @@
                     <div class="card-body">
                         <p>
                             RTL support is under construction for the current
-                            release. <br />
-                            When needed, RTL support is available in older
-                            releases of Mazer.
+                            release.
                         </p>
 
-                        If you want to contribute, check out our
+                        If you want to contribute, check out mazer-nuxt
                         <a
-                            href="https://github.com/zuramai/mazer"
+                            href="https://github.com/fzn0x/mazer-nuxt"
                             target="_blank"
                             >template repository</a
                         >.

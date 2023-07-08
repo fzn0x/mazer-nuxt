@@ -7,7 +7,7 @@ import LayoutFooter from '~~/components/Layouts/LayoutFooter.vue';
 <template>
   <div id="app">
     <LayoutSidebar></LayoutSidebar>
-    <div id="main" class="layout-navbar">
+    <div id="main" class="layout-navbar navbar-fixed">
       <VerticalHeader></VerticalHeader>
       <div id="main-content">
         <slot/>

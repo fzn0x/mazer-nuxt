@@ -5,7 +5,7 @@
 
   &.layout-navbar {
     padding: 0;
-    transition: margin-left 0.5s ease-out
+    transition: margin-left 7s cubic-bezier(.22,1,.36,1);
   }
 
   &.layout-horizontal {
@@ -18,6 +18,14 @@
   }
 }
 
+.navbar-fixed .navbar-top {
+    position: sticky;
+    background-color: var(--bs-body-bg);
+    z-index: 9;
+    top: 0;
+    width: inherit;
+}
+
 #main, #main-content {
   display: flex;
   flex-direction: column;
@@ -25,6 +33,10 @@
 
 #main-content, .page-heading {
   flex-grow: 1;
+}
+
+section {
+  display: block;
 }
 
 .page-heading {
@@ -69,4 +81,10 @@ a {
 
 .text-muted {
   color: $text-muted !important;
+}
+
+.badge-notification {
+  position: absolute;
+  right: 17px;
+  padding: 3px;
 }

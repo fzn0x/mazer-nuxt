@@ -1,8 +1,8 @@
 
-.navbar-fixed {
-    position: fixed;
-    background-color: #fff;
+.layout-navbar.navbar-fixed {
+    display: block !important;
 }
+
 .navbar {
     height:90px;
     padding: 1.5rem;
@@ -33,7 +33,7 @@
         .dropdown > a {
             color: $gray-600;
             font-weight: 600;
-            
+
             svg {
                 height: 24px;
                 width: 24px;
@@ -147,7 +147,7 @@
                         top: 100%;
                     }
                 }
-                
+
             }
         }
         .submenu {
@@ -157,14 +157,14 @@
                 position: relative;
             }
 
-            .submenu-group { 
+            .submenu-group {
                 display: table-cell;
                 padding: .5rem .3rem .3rem .5rem;
                 flex-wrap: wrap;
                 max-height: 200px;
                 min-width: 200px;
-    
-                .submenu-item { 
+
+                .submenu-item {
                     position: relative;
                     &.has-sub .submenu-link {
                         position: relative;
@@ -232,11 +232,11 @@
                 }
             }
             .submenu {
-                @include submenu-responsive;  
-                transition: all .2s; 
-                padding-top: 0;    
-                display: none;        
-                padding-bottom: 0;            
+                @include submenu-responsive;
+                transition: all .2s;
+                padding-top: 0;
+                display: none;
+                padding-bottom: 0;
                 .submenu-group-wrapper {
                     display: flex;
                     flex-direction: column;

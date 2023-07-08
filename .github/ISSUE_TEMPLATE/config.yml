@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Mazer Official Repository
-    url: https://github.com/zuramai/mazer
+    url: https://github.com/fzn0x/mazer-nuxt
     about: Check out the Mazer repository
   - name: Mazer Nuxt Discussions
     url: https://github.com/fzn0x/mazer-nuxt/discussions

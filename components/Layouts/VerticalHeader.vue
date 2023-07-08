@@ -1,6 +1,6 @@
 <template>
-  <header class="mb-3">
-    <nav class="navbar navbar-expand-lg navbar-light">
+  <header>
+    <nav class="navbar navbar-expand navbar-light navbar-top">
       <div class="container-fluid">
         <a href="#" class="burger-btn d-block" @click.prevent="toggleSidebar">
           <i class="bi bi-justify fs-3"></i>
@@ -12,9 +12,9 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-lg-0">
             <li class="nav-item dropdown me-1">
-              <a class="nav-link active dropdown-toggle" href="#" data-bs-toggle="dropdown"
+              <a class="nav-link active dropdown-toggle text-gray-600" href="#" data-bs-toggle="dropdown"
                  aria-expanded="false">
                 <i class="bi bi-envelope fs-4 text-gray-600"></i>
               </a>
@@ -26,9 +26,10 @@
               </ul>
             </li>
             <li class="nav-item dropdown me-3">
-              <a class="nav-link active dropdown-toggle" href="#" data-bs-toggle="dropdown"
+              <a class="nav-link active dropdown-toggle text-gray-600" href="#" data-bs-toggle="dropdown"
                  aria-expanded="false">
-                <i class="bi bi-bell fs-4 text-gray-600"></i>
+                <i class="bi bi-bell bi-sub fs-4"></i>
+                <span class="badge badge-notification bg-danger">7</span>
               </a>
               <ul class="dropdown-menu dropdown-menu-lg-end" aria-labelledby="dropdownMenuButton">
                 <li>
