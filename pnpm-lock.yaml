@@ -24,8 +24,8 @@ dependencies:
     specifier: ^4.29.0
     version: 4.29.0
   vue3-apexcharts:
-    specifier: ^1.4.1
-    version: 1.4.1(apexcharts@3.41.0)(vue@3.3.4)
+    specifier: ^1.4.4
+    version: 1.4.4(apexcharts@3.41.0)(vue@3.3.4)
 
 devDependencies:
   '@nuxtjs/google-fonts':
@@ -5200,8 +5200,8 @@ packages:
       vue: 3.3.4
     dev: true
 
-  /vue3-apexcharts@1.4.1(apexcharts@3.41.0)(vue@3.3.4):
-    resolution: {integrity: sha512-96qP8JDqB9vwU7bkG5nVU+E0UGQn7yYQVqUUCLQMYWDuQyu2vE77H/UFZ1yI+hwzlSTBKT9BqnNG8JsFegB3eg==}
+  /vue3-apexcharts@1.4.4(apexcharts@3.41.0)(vue@3.3.4):
+    resolution: {integrity: sha512-TH89uZrxGjaDvkaYAISvj8+k6Bf1rUKFillc8oJirs5XZEPiwM1ELKZQ786wz0rfPqkSHHny2lqqUCK7Rw+LcQ==}
     peerDependencies:
       apexcharts: '> 3.0.0'
       vue: '> 3.0.0'
