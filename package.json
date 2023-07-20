@@ -22,7 +22,7 @@
     "@nuxtjs/google-fonts": "^3.0.1",
     "@pinia/nuxt": "^0.4.11",
     "@types/bootstrap": "^5.2.6",
-    "nuxt": "^3.6.2",
+    "nuxt": "^3.6.5",
     "perfect-scrollbar": "^1.5.5",
     "pinia": "^2.1.4",
     "sass": "^1.63.6",
