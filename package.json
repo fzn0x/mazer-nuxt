@@ -24,7 +24,7 @@
     "@types/bootstrap": "^5.2.6",
     "nuxt": "^3.6.2",
     "perfect-scrollbar": "^1.5.5",
-    "pinia": "^2.1.4",
+    "pinia": "^2.1.6",
     "sass": "^1.63.6",
     "sass-loader": "^13.3.2"
   }
