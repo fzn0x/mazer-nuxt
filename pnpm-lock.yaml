@@ -21,8 +21,8 @@ dependencies:
     specifier: ^1.10.5
     version: 1.10.5
   feather-icons:
-    specifier: ^4.29.0
-    version: 4.29.0
+    specifier: ^4.29.1
+    version: 4.29.1
   vue3-apexcharts:
     specifier: ^1.4.1
     version: 1.4.1(apexcharts@3.41.0)(vue@3.3.4)
@@ -2598,8 +2598,8 @@ packages:
     dependencies:
       reusify: 1.0.4
 
-  /feather-icons@4.29.0:
-    resolution: {integrity: sha512-Y7VqN9FYb8KdaSF0qD1081HCkm0v4Eq/fpfQYQnubpqi0hXx14k+gF9iqtRys1SIcTEi97xDi/fmsPFZ8xo0GQ==}
+  /feather-icons@4.29.1:
+    resolution: {integrity: sha512-P1we61haGTds6lKWe6CCVPsNULb8tHr1y6S9gXEpU+lNR1Ja7GdV0A1l2hTNmzXv+0Stix/3YMWMAn7n1Qtd6A==}
     dependencies:
       classnames: 2.3.2
       core-js: 3.26.1
