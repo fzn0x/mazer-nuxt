@@ -14,7 +14,7 @@
     "@popperjs/core": "^2.11.8",
     "apexcharts": "^3.41.0",
     "bootstrap": "^5.3.0",
-    "bootstrap-icons": "^1.10.5",
+    "bootstrap-icons": "^1.11.0",
     "feather-icons": "^4.29.0",
     "vue3-apexcharts": "^1.4.1"
   },
