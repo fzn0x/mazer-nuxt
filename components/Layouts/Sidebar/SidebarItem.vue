@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 interface Menu {
 	name: string
+  isTitle: boolean
 	key?: string
 	icon?: string
 	url?: string

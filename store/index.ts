@@ -1,7 +1,6 @@
 import sideBarItems from './data/sidebarItems';
 import {defineStore} from 'pinia'
 import {reactive, ref} from "vue";
-import { ColorModeInstance } from '@nuxtjs/color-mode/dist/runtime/types';
 
 export const useStore = defineStore('main', () => {
   const sidebarItems = reactive(sideBarItems)
