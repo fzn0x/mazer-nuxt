@@ -4,6 +4,10 @@
 
 </div>
 
+> [!WARNING]
+> This template will not add new components or features in the future.\
+> Bug fixing and maintenance will keep going on.
+
 <div align="center">
 
 [![All Contributors](https://img.shields.io/github/contributors/fzn0x/mazer-nuxt)](https://github.com/fzn0x/mazer-nuxt/graphs/contributors)
