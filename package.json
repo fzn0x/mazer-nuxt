@@ -19,7 +19,7 @@
     "apexcharts": "^3.41.0",
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.10.5",
-    "feather-icons": "^4.29.0",
+    "feather-icons": "^4.29.2",
     "vue3-apexcharts": "^1.4.4"
   },
   "devDependencies": {
